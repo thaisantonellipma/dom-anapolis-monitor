@@ -1,0 +1,54 @@
+name: Teste de acesso ao DOM
+
+# Teste de aceite 1: o GitHub consegue alcançar a API do DOM e o PDF no S3?
+# Execução manual: aba Actions > "Teste de acesso ao DOM" > Run workflow.
+on:
+  workflow_dispatch:
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Consultar a API do DOM
+        run: |
+          set -u
+          BASE=https://dom.anapolis.go.gov.br
+          {
+            echo "## Teste de acesso ao DOM de Anápolis"
+            echo
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          code=$(curl -sS -m 30 -o ultimo.json -w '%{http_code}' "$BASE/api/diarios/ultimoDiario" || echo "falha")
+          echo "- API ultimoDiario: HTTP $code" >> "$GITHUB_STEP_SUMMARY"
+
+          code=$(curl -sS -m 30 -o mes.json -w '%{http_code}' "$BASE/api/diarios/diariosPorDia?data=$(date +%Y-%m)" || echo "falha")
+          echo "- API diariosPorDia: HTTP $code" >> "$GITHUB_STEP_SUMMARY"
+
+          if [ -s ultimo.json ]; then
+            numero=$(jq -r '.[0].numero' ultimo.json)
+            data=$(jq -r '.[0].data' ultimo.json)
+            url=$(jq -r '.[0].midias[0].url' ultimo.json)
+            echo "- Última edição: $numero ($data)" >> "$GITHUB_STEP_SUMMARY"
+            echo "URL_PDF=$url" >> "$GITHUB_ENV"
+          fi
+
+      - name: Baixar o PDF do S3
+        run: |
+          code=$(curl -sS -m 60 -o edicao.pdf -w '%{http_code}' "$URL_PDF" || echo "falha")
+          tam=$(stat -c %s edicao.pdf 2>/dev/null || echo 0)
+          echo "- PDF no S3: HTTP $code, $tam bytes" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Extrair o texto
+        run: |
+          sudo apt-get install -y -qq poppler-utils > /dev/null
+          pdftotext -layout edicao.pdf edicao.txt
+          chars=$(wc -c < edicao.txt)
+          paginas=$(pdfinfo edicao.pdf | awk '/^Pages:/ {print $2}')
+          echo "- Páginas: $paginas | caracteres extraídos: $chars" >> "$GITHUB_STEP_SUMMARY"
+          {
+            echo
+            echo "Primeiras linhas do texto extraído:"
+            echo '```'
+            head -n 25 edicao.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
