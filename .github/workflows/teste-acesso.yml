@@ -11,44 +11,31 @@ jobs:
     steps:
       - name: Consultar a API do DOM
         run: |
-          set -u
           BASE=https://dom.anapolis.go.gov.br
-          {
-            echo "## Teste de acesso ao DOM de Anápolis"
-            echo
-          } >> "$GITHUB_STEP_SUMMARY"
+          say() { echo "$1" | tee -a "$GITHUB_STEP_SUMMARY"; }
+          say "## Teste de acesso ao DOM de Anápolis"
 
           code=$(curl -sS -m 30 -o ultimo.json -w '%{http_code}' "$BASE/api/diarios/ultimoDiario" || echo "falha")
-          echo "- API ultimoDiario: HTTP $code" >> "$GITHUB_STEP_SUMMARY"
+          say "RESULTADO api_ultimoDiario=$code"
+          code2=$(curl -sS -m 30 -o mes.json -w '%{http_code}' "$BASE/api/diarios/diariosPorDia?data=$(date +%Y-%m)" || echo "falha")
+          say "RESULTADO api_diariosPorDia=$code2"
+          [ "$code" = "200" ] && [ "$code2" = "200" ] || exit 1
 
-          code=$(curl -sS -m 30 -o mes.json -w '%{http_code}' "$BASE/api/diarios/diariosPorDia?data=$(date +%Y-%m)" || echo "falha")
-          echo "- API diariosPorDia: HTTP $code" >> "$GITHUB_STEP_SUMMARY"
-
-          if [ -s ultimo.json ]; then
-            numero=$(jq -r '.[0].numero' ultimo.json)
-            data=$(jq -r '.[0].data' ultimo.json)
-            url=$(jq -r '.[0].midias[0].url' ultimo.json)
-            echo "- Última edição: $numero ($data)" >> "$GITHUB_STEP_SUMMARY"
-            echo "URL_PDF=$url" >> "$GITHUB_ENV"
-          fi
+          say "RESULTADO ultima_edicao=$(jq -r '.[0].numero' ultimo.json) data=$(jq -r '.[0].data' ultimo.json)"
+          echo "URL_PDF=$(jq -r '.[0].midias[0].url' ultimo.json)" >> "$GITHUB_ENV"
 
       - name: Baixar o PDF do S3
         run: |
+          say() { echo "$1" | tee -a "$GITHUB_STEP_SUMMARY"; }
           code=$(curl -sS -m 60 -o edicao.pdf -w '%{http_code}' "$URL_PDF" || echo "falha")
-          tam=$(stat -c %s edicao.pdf 2>/dev/null || echo 0)
-          echo "- PDF no S3: HTTP $code, $tam bytes" >> "$GITHUB_STEP_SUMMARY"
+          say "RESULTADO pdf_s3=$code bytes=$(stat -c %s edicao.pdf 2>/dev/null || echo 0)"
+          [ "$code" = "200" ] || exit 1
 
       - name: Extrair o texto
         run: |
+          say() { echo "$1" | tee -a "$GITHUB_STEP_SUMMARY"; }
           sudo apt-get install -y -qq poppler-utils > /dev/null
           pdftotext -layout edicao.pdf edicao.txt
-          chars=$(wc -c < edicao.txt)
-          paginas=$(pdfinfo edicao.pdf | awk '/^Pages:/ {print $2}')
-          echo "- Páginas: $paginas | caracteres extraídos: $chars" >> "$GITHUB_STEP_SUMMARY"
-          {
-            echo
-            echo "Primeiras linhas do texto extraído:"
-            echo '```'
-            head -n 25 edicao.txt
-            echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
+          say "RESULTADO paginas=$(pdfinfo edicao.pdf | awk '/^Pages:/ {print $2}') caracteres=$(wc -c < edicao.txt)"
+          echo "---- AMOSTRA ----"
+          sed -n '40,70p' edicao.txt
