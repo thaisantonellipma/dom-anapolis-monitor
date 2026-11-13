@@ -1,0 +1,33 @@
+name: Teste 3 - comparar leituras do PDF
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  comparar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependências
+        run: |
+          sudo apt-get install -y -qq poppler-utils > /dev/null
+          pip install -q openpyxl
+      - name: Coletar edições 3.982 a 4.003
+        run: python scripts/coletar.py 2026-06 2026-08 3982 4003
+      - name: Extrair (colunas e automático)
+        run: |
+          rm -rf textos textos_auto
+          python scripts/extrair.py colunas textos
+          python scripts/extrair.py auto textos_auto
+      - name: Comparar
+        run: python scripts/comparar_modos.py
+      - name: Salvar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados textos textos_auto relatorios
+          git commit -m "Teste 3: comparação das leituras" || echo "sem mudanças"
+          git push
