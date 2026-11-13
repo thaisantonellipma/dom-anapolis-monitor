@@ -57,7 +57,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;p
 <div class="filtros"><input id="q" type="search" placeholder="Buscar por assunto, SEI, instrumento…" aria-label="Buscar">
 <select id="fsev"><option value="">Qualquer alerta</option><option value="ALTA">Alta</option><option value="MEDIA">Média</option><option value="ACOMPANHAR">Acompanhar</option><option value="-">Sem alerta</option></select>
 <select id="forg"><option value="">Todos os órgãos</option></select><select id="fcla"><option value="">Todos os tipos</option></select>
-<select id="fpri"><option value="">Todas as prioridades</option></select><button id="csv">Baixar CSV</button></div>
+<select id="fpri"><option value="">Todas as prioridades</option></select><button id="csv">Copiar CSV</button></div>
 <div class="scroll"><table><thead><tr><th>Alerta</th><th>Data</th><th>Órgão</th><th>Ato</th><th>Valor</th><th>SEI</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
 <div id="conta" class="nota"></div>
 <p class="nota" id="rodape"></p>
@@ -120,7 +120,7 @@ $('#tb').innerHTML=f.slice(0,m).map(a=>`<tr><td>${chip(a.sev)}</td><td>${a.data.
 $('#conta').textContent=`${f.length} atos encontrados`+(f.length>m?` (mostrando os ${m} mais recentes; use os filtros ou baixe o CSV)`:'')}
 function csv(){const f=filtrados();const L=['data;edição;alerta;órgão;tipo;título;instrumento;valor_max;sei;prioridades'];
 f.forEach(a=>L.push([a.data,a.edicao,a.sev,a.orgao,a.classe,a.titulo,a.instrumento||'',a.valor_max||'',a.sei.join(' | '),a.prioridades.join(' | ')].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(';')));
-const b=new Blob(['﻿'+L.join('\n')],{type:'text/csv;charset=utf-8'});const u=document.createElement('a');u.href=URL.createObjectURL(b);u.download='atos_dom_anapolis.csv';u.click()}
+const txt=L.join('\n');const ok=()=>{$('#csv').textContent='CSV copiado ✓';setTimeout(()=>$('#csv').textContent='Copiar CSV',2500)};const manual=()=>{let t=document.getElementById('csvbox');if(!t){t=document.createElement('textarea');t.id='csvbox';t.style.cssText='width:100%;height:160px;margin-top:10px';$('#conta').after(t)}t.value=txt;t.select()};try{navigator.clipboard.writeText(txt).then(ok,manual)}catch(e){manual()}}
 function opts(sel,vals){vals.forEach(v=>{const o=document.createElement('option');o.value=o.textContent=v;sel.appendChild(o)})}
 opts($('#forg'),[...new Set(D.atos.map(a=>a.orgao))].sort());opts($('#fcla'),[...new Set(D.atos.map(a=>a.classe))].sort());opts($('#fpri'),[...new Set(D.atos.flatMap(a=>a.prioridades))].sort());
 datas.slice().reverse().forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=dt(d);$('#seldia').appendChild(o)});
