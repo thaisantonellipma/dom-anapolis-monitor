@@ -5,9 +5,9 @@
    "3.973 (Diário Oficial)"
   ],
   "atos": 35,
-  "pessoal": 4,
+  "pessoal": 5,
   "alta": 1,
-  "media": 6,
+  "media": 8,
   "valor_citado": 4397705.66,
   "alertas_dia": []
  },
@@ -19,7 +19,7 @@
   "atos": 23,
   "pessoal": 2,
   "alta": 12,
-  "media": 5,
+  "media": 7,
   "valor_citado": 457693.17,
   "alertas_dia": [
    {
@@ -59,9 +59,9 @@
    "3.977 (Diário Oficial)"
   ],
   "atos": 24,
-  "pessoal": 5,
+  "pessoal": 6,
   "alta": 2,
-  "media": 1,
+  "media": 4,
   "valor_citado": 3092473.16,
   "alertas_dia": []
  },
@@ -73,7 +73,7 @@
   "atos": 25,
   "pessoal": 3,
   "alta": 3,
-  "media": 3,
+  "media": 4,
   "valor_citado": 2699813594.15,
   "alertas_dia": []
  },
@@ -119,9 +119,9 @@
    "3.981 (Diário Oficial)"
   ],
   "atos": 25,
-  "pessoal": 5,
+  "pessoal": 6,
   "alta": 1,
-  "media": 6,
+  "media": 8,
   "valor_citado": 5529779.4,
   "alertas_dia": []
  },
@@ -145,7 +145,7 @@
   "atos": 43,
   "pessoal": 6,
   "alta": 0,
-  "media": 18,
+  "media": 20,
   "valor_citado": 1644108.36,
   "alertas_dia": []
  },
@@ -155,9 +155,9 @@
    "3.984 (Diário Oficial)"
   ],
   "atos": 37,
-  "pessoal": 6,
+  "pessoal": 7,
   "alta": 1,
-  "media": 6,
+  "media": 13,
   "valor_citado": 29907.05,
   "alertas_dia": []
  },
@@ -169,7 +169,7 @@
   "atos": 27,
   "pessoal": 5,
   "alta": 1,
-  "media": 4,
+  "media": 6,
   "valor_citado": 8633863.37,
   "alertas_dia": []
  },
@@ -179,9 +179,9 @@
    "3.986 (Diário Oficial)"
   ],
   "atos": 15,
-  "pessoal": 3,
+  "pessoal": 4,
   "alta": 1,
-  "media": 3,
+  "media": 5,
   "valor_citado": 2006420.16,
   "alertas_dia": []
  },
@@ -193,7 +193,7 @@
   "atos": 29,
   "pessoal": 8,
   "alta": 0,
-  "media": 7,
+  "media": 11,
   "valor_citado": 1661862.72,
   "alertas_dia": []
  },
@@ -244,7 +244,7 @@
   "atos": 46,
   "pessoal": 4,
   "alta": 8,
-  "media": 8,
+  "media": 10,
   "valor_citado": 10409064.58,
   "alertas_dia": [
    {
@@ -275,7 +275,7 @@
   "atos": 39,
   "pessoal": 1,
   "alta": 0,
-  "media": 7,
+  "media": 8,
   "valor_citado": 4276381.0,
   "alertas_dia": []
  },
@@ -287,7 +287,7 @@
   "atos": 55,
   "pessoal": 4,
   "alta": 1,
-  "media": 5,
+  "media": 6,
   "valor_citado": 6298029.48,
   "alertas_dia": []
  },
@@ -299,7 +299,7 @@
   "atos": 16,
   "pessoal": 5,
   "alta": 0,
-  "media": 3,
+  "media": 4,
   "valor_citado": 231180.55,
   "alertas_dia": []
  },
@@ -334,7 +334,7 @@
    "4.000 (Edição Suplementar)"
   ],
   "atos": 21,
-  "pessoal": 1,
+  "pessoal": 2,
   "alta": 0,
   "media": 10,
   "valor_citado": 657305.9,
@@ -364,9 +364,9 @@
    "4.002 (Diário Oficial)"
   ],
   "atos": 50,
-  "pessoal": 3,
+  "pessoal": 4,
   "alta": 2,
-  "media": 11,
+  "media": 14,
   "valor_citado": 94148081.16,
   "alertas_dia": []
  },
@@ -412,9 +412,9 @@
    "4.006 (Diário Oficial)"
   ],
   "atos": 41,
-  "pessoal": 9,
+  "pessoal": 10,
   "alta": 9,
-  "media": 12,
+  "media": 18,
   "valor_citado": 802345.95,
   "alertas_dia": [
    {
@@ -430,9 +430,9 @@
    "4.007 (Diário Oficial)"
   ],
   "atos": 42,
-  "pessoal": 4,
+  "pessoal": 5,
   "alta": 4,
-  "media": 8,
+  "media": 12,
   "valor_citado": 259633.91999999998,
   "alertas_dia": [
    {
@@ -450,7 +450,7 @@
   "atos": 39,
   "pessoal": 11,
   "alta": 3,
-  "media": 1,
+  "media": 2,
   "valor_citado": 13859863.16,
   "alertas_dia": []
  },
@@ -460,7 +460,7 @@
    "4.009 (Diário Oficial)"
   ],
   "atos": 24,
-  "pessoal": 1,
+  "pessoal": 3,
   "alta": 3,
   "media": 7,
   "valor_citado": 25197224.52,
@@ -472,9 +472,9 @@
    "4.010 (Diário Oficial)"
   ],
   "atos": 44,
-  "pessoal": 7,
+  "pessoal": 8,
   "alta": 1,
-  "media": 9,
+  "media": 14,
   "valor_citado": 4011332.86,
   "alertas_dia": []
  },
@@ -487,7 +487,7 @@
   "atos": 38,
   "pessoal": 3,
   "alta": 1,
-  "media": 4,
+  "media": 6,
   "valor_citado": 5636153.34,
   "alertas_dia": []
  },
@@ -499,7 +499,7 @@
   "atos": 38,
   "pessoal": 1,
   "alta": 3,
-  "media": 8,
+  "media": 9,
   "valor_citado": 8622286.09,
   "alertas_dia": []
  },
@@ -523,7 +523,7 @@
   "atos": 20,
   "pessoal": 3,
   "alta": 5,
-  "media": 2,
+  "media": 4,
   "valor_citado": 96276060.84,
   "alertas_dia": []
  },
@@ -533,9 +533,9 @@
    "4.015 (Diário Oficial)"
   ],
   "atos": 16,
-  "pessoal": 4,
+  "pessoal": 7,
   "alta": 0,
-  "media": 3,
+  "media": 10,
   "valor_citado": 111129.76000000001,
   "alertas_dia": []
  },
@@ -545,9 +545,9 @@
    "4.016 (Diário Oficial)"
   ],
   "atos": 55,
-  "pessoal": 3,
+  "pessoal": 5,
   "alta": 3,
-  "media": 35,
+  "media": 38,
   "valor_citado": 2115567.91,
   "alertas_dia": []
  },
@@ -559,7 +559,7 @@
   "atos": 12,
   "pessoal": 6,
   "alta": 2,
-  "media": 4,
+  "media": 5,
   "valor_citado": 6440680.0,
   "alertas_dia": []
  },
@@ -572,7 +572,7 @@
   "atos": 36,
   "pessoal": 8,
   "alta": 1,
-  "media": 6,
+  "media": 8,
   "valor_citado": 25716271.13,
   "alertas_dia": []
  },
@@ -585,7 +585,7 @@
   "atos": 53,
   "pessoal": 9,
   "alta": 2,
-  "media": 5,
+  "media": 12,
   "valor_citado": 3059491.03,
   "alertas_dia": []
  },
@@ -598,7 +598,7 @@
   "atos": 14,
   "pessoal": 3,
   "alta": 1,
-  "media": 3,
+  "media": 4,
   "valor_citado": 422577.38,
   "alertas_dia": []
  },
@@ -608,9 +608,9 @@
    "4.022 (Diário Oficial)"
   ],
   "atos": 20,
-  "pessoal": 9,
+  "pessoal": 10,
   "alta": 0,
-  "media": 3,
+  "media": 7,
   "valor_citado": 1635.95,
   "alertas_dia": []
  },
@@ -620,9 +620,9 @@
    "4.023 (Diário Oficial)"
   ],
   "atos": 21,
-  "pessoal": 8,
+  "pessoal": 10,
   "alta": 1,
-  "media": 5,
+  "media": 7,
   "valor_citado": 85080.95,
   "alertas_dia": []
  },
@@ -644,9 +644,9 @@
    "4.025 (Diário Oficial)"
   ],
   "atos": 45,
-  "pessoal": 5,
+  "pessoal": 6,
   "alta": 1,
-  "media": 12,
+  "media": 18,
   "valor_citado": 5607904.58,
   "alertas_dia": []
  },
@@ -658,7 +658,7 @@
   "atos": 26,
   "pessoal": 9,
   "alta": 2,
-  "media": 3,
+  "media": 6,
   "valor_citado": 2875487.42,
   "alertas_dia": []
  },
@@ -670,9 +670,9 @@
    "4.028 (Edição Suplementar)"
   ],
   "atos": 38,
-  "pessoal": 8,
+  "pessoal": 9,
   "alta": 5,
-  "media": 9,
+  "media": 13,
   "valor_citado": 198175247.27,
   "alertas_dia": []
  },
@@ -684,7 +684,7 @@
   "atos": 17,
   "pessoal": 8,
   "alta": 2,
-  "media": 3,
+  "media": 5,
   "valor_citado": 60796071.12,
   "alertas_dia": []
  },
@@ -697,7 +697,7 @@
   "atos": 23,
   "pessoal": 1,
   "alta": 3,
-  "media": 15,
+  "media": 16,
   "valor_citado": 32256066.759999998,
   "alertas_dia": []
  },
@@ -709,7 +709,7 @@
   "atos": 22,
   "pessoal": 2,
   "alta": 0,
-  "media": 6,
+  "media": 8,
   "valor_citado": 1658963.15,
   "alertas_dia": []
  },
@@ -721,7 +721,7 @@
   "atos": 13,
   "pessoal": 3,
   "alta": 1,
-  "media": 6,
+  "media": 8,
   "valor_citado": 26526571.7,
   "alertas_dia": []
  },
@@ -733,7 +733,7 @@
   "atos": 31,
   "pessoal": 6,
   "alta": 5,
-  "media": 6,
+  "media": 7,
   "valor_citado": 347741.65,
   "alertas_dia": [
    {
@@ -751,7 +751,7 @@
   "atos": 13,
   "pessoal": 5,
   "alta": 1,
-  "media": 0,
+  "media": 2,
   "valor_citado": 2487274.3,
   "alertas_dia": []
  },
@@ -786,9 +786,9 @@
    "4.038 (Diário Oficial)"
   ],
   "atos": 32,
-  "pessoal": 5,
+  "pessoal": 6,
   "alta": 4,
-  "media": 4,
+  "media": 6,
   "valor_citado": 4476262.96,
   "alertas_dia": [
    {
@@ -817,9 +817,9 @@
    "4.040 (Edição Suplementar)"
   ],
   "atos": 21,
-  "pessoal": 2,
+  "pessoal": 3,
   "alta": 0,
-  "media": 4,
+  "media": 5,
   "valor_citado": 1109717.84,
   "alertas_dia": []
  },
@@ -877,9 +877,9 @@
    "4.045 (Diário Oficial)"
   ],
   "atos": 29,
-  "pessoal": 3,
+  "pessoal": 4,
   "alta": 1,
-  "media": 9,
+  "media": 10,
   "valor_citado": 2297430.76,
   "alertas_dia": []
  },
@@ -901,9 +901,9 @@
    "4.047 (Diário Oficial)"
   ],
   "atos": 42,
-  "pessoal": 2,
+  "pessoal": 3,
   "alta": 11,
-  "media": 2,
+  "media": 5,
   "valor_citado": 294239.73,
   "alertas_dia": [
    {
@@ -919,9 +919,9 @@
    "4.048 (Diário Oficial)"
   ],
   "atos": 41,
-  "pessoal": 5,
+  "pessoal": 6,
   "alta": 5,
-  "media": 8,
+  "media": 14,
   "valor_citado": 254729.1,
   "alertas_dia": [
    {
@@ -937,9 +937,9 @@
    "4.049 (Diário Oficial)"
   ],
   "atos": 30,
-  "pessoal": 1,
+  "pessoal": 2,
   "alta": 2,
-  "media": 3,
+  "media": 5,
   "valor_citado": 4753894.28,
   "alertas_dia": []
  },
@@ -949,9 +949,9 @@
    "4.050 (Diário Oficial)"
   ],
   "atos": 22,
-  "pessoal": 2,
+  "pessoal": 3,
   "alta": 1,
-  "media": 3,
+  "media": 6,
   "valor_citado": 685829.41,
   "alertas_dia": []
  },
@@ -961,9 +961,9 @@
    "4.051 (Diário Oficial)"
   ],
   "atos": 29,
-  "pessoal": 4,
+  "pessoal": 7,
   "alta": 1,
-  "media": 4,
+  "media": 9,
   "valor_citado": 217329.78,
   "alertas_dia": []
  },
@@ -985,9 +985,9 @@
    "4.053 (Diário Oficial)"
   ],
   "atos": 24,
-  "pessoal": 3,
+  "pessoal": 4,
   "alta": 2,
-  "media": 7,
+  "media": 10,
   "valor_citado": 24048585.139999997,
   "alertas_dia": []
  },
@@ -997,9 +997,9 @@
    "4.054 (Diário Oficial)"
   ],
   "atos": 37,
-  "pessoal": 11,
+  "pessoal": 12,
   "alta": 6,
-  "media": 6,
+  "media": 16,
   "valor_citado": 941988.17,
   "alertas_dia": [
    {
@@ -1015,9 +1015,9 @@
    "4.055 (Diário Oficial)"
   ],
   "atos": 39,
-  "pessoal": 5,
+  "pessoal": 6,
   "alta": 0,
-  "media": 2,
+  "media": 7,
   "valor_citado": 78000.0,
   "alertas_dia": []
  },
@@ -1039,9 +1039,9 @@
    "4.057 (Diário Oficial)"
   ],
   "atos": 21,
-  "pessoal": 2,
+  "pessoal": 4,
   "alta": 3,
-  "media": 3,
+  "media": 7,
   "valor_citado": 479445.8,
   "alertas_dia": [
    {
@@ -1059,7 +1059,7 @@
   "atos": 11,
   "pessoal": 4,
   "alta": 1,
-  "media": 3,
+  "media": 5,
   "valor_citado": 819.06,
   "alertas_dia": []
  },
@@ -1071,7 +1071,7 @@
   "atos": 27,
   "pessoal": 5,
   "alta": 0,
-  "media": 5,
+  "media": 8,
   "valor_citado": 359715.76,
   "alertas_dia": []
  },
@@ -1082,9 +1082,9 @@
    "4.061 (Diário Oficial)"
   ],
   "atos": 53,
-  "pessoal": 3,
+  "pessoal": 8,
   "alta": 2,
-  "media": 4,
+  "media": 10,
   "valor_citado": 49338904.11,
   "alertas_dia": []
  },
@@ -1106,9 +1106,9 @@
    "4.063 (Diário Oficial)"
   ],
   "atos": 48,
-  "pessoal": 6,
+  "pessoal": 7,
   "alta": 1,
-  "media": 6,
+  "media": 10,
   "valor_citado": 1241731.27,
   "alertas_dia": []
  },
@@ -1132,7 +1132,7 @@
   "atos": 74,
   "pessoal": 7,
   "alta": 0,
-  "media": 5,
+  "media": 8,
   "valor_citado": 3487.5,
   "alertas_dia": []
  },
@@ -1156,7 +1156,7 @@
   "atos": 47,
   "pessoal": 2,
   "alta": 3,
-  "media": 12,
+  "media": 13,
   "valor_citado": 10490218.41,
   "alertas_dia": []
  },
@@ -1166,9 +1166,9 @@
    "4.068 (Diário Oficial)"
   ],
   "atos": 43,
-  "pessoal": 8,
+  "pessoal": 9,
   "alta": 0,
-  "media": 9,
+  "media": 11,
   "valor_citado": 1254185.2,
   "alertas_dia": []
  },
@@ -1179,9 +1179,9 @@
    "4.069 (Edição Suplementar)"
   ],
   "atos": 40,
-  "pessoal": 4,
+  "pessoal": 6,
   "alta": 0,
-  "media": 17,
+  "media": 20,
   "valor_citado": 3009524.4,
   "alertas_dia": []
  }
