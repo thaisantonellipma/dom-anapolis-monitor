@@ -39,12 +39,12 @@ def main(mes_ini, mes_fim, ed_min, ed_max):
                 "codigo_icp": d.get("codigo_icp"), "url_pdf": midia.get("url"),
                 "bytes": midia.get("size"),
             })
-    edicoes.sort(key=lambda e: int(e["numero"].replace(".", "")))
+    edicoes.sort(key=lambda e: (int(e["numero"].replace(".", "")), e["id"]))
     for e in edicoes:
         if not e["url_pdf"]:
             print("SEM PDF:", e["numero"])
             continue
-        destino = f"pdfs/{e['numero'].replace('.', '')}.pdf"
+        destino = f"pdfs/{e['numero'].replace('.', '')}_{e['id']}.pdf"
         if not os.path.exists(destino):
             with open(destino, "wb") as f:
                 f.write(get(e["url_pdf"], binario=True))
