@@ -15,13 +15,19 @@
  "temporario": "contratacao temporaria|processo seletivo simplificado|excepcional interesse publico|contrato temporario",
  "pessoal_movimento": "\\b(nomeia|nomear|exonera|exonerar|designa|designar|remaneja)\\b",
  "prioridades": {
-  "Reforma administrativa e servidor": "reforma administrativa|estrutura organizacional|plano de cargos|lei complementar n[o°]? ?577|valorizacao do servidor|banco de servidores|remanejament|progressao|capacitacao de servidores",
-  "Saúde": "cirurgias? eletiv|mutirao|fila de espera|hospital|\\bupa\\b|\\bubs\\b|unidade basica|maternidade|ambulatorio|oftalmolog|regulacao",
-  "Educação e creches": "creche|cmei|educacao infantil|vagas|escola|professor|merenda|transporte escolar|kits escolares",
-  "Habitação": "habitacional|moradia|regularizacao fundiaria|loteamento|interesse social",
-  "Governo digital": "software|sistema de informa|saas|aplicativo|plataforma digital|transformacao digital|serpro|whatsapp|conecta anapolis|tecnologia da informacao",
-  "Plano Diretor e uso do solo": "plano diretor|zoneamento|uso e ocupacao do solo|parcelamento do solo",
-  "Transparência e LGPD": "lgpd|protecao de dados|encarregado|lei de acesso|ouvidoria|\\bsic\\b|transparencia",
-  "Desenvolvimento econômico": "distrito agroindustrial|dainco|incentivo fiscal|empreendedor|desenvolvimento economico"
+  "Saúde: rede e filas": "hospital geral|policlinica|\\bupas?\\b|zerar (as )?filas?|fila de (consultas|exames|espera)|cirurgias? eletiv|mutirao|centro de diagnostico|prontuario eletronico|teleconsulta|atencao domiciliar|saude movel|\\bubs\\b|unidade basica de saude|centro de especialidades odontologicas|regulacao de pacientes|santa casa|\\bcaps\\b",
+  "Educação: creches e escola": "creche|cmei|bercario|pre-escola|aluno de tempo integral|ensino integral|kits? escolares?|uniformes? escolar|merenda|transporte escolar|conectividade nas escolas|bolsa de estudos|cefope|ceadi|educacao de jovens e adultos|\\beja\\b",
+  "Concursos públicos": "concurso publico|edital de concurso|aprovados no concurso|homologacao do concurso",
+  "Servidores, carreira e ISSA": "plano de cargos|plano de carreira|teletrabalho|contratualizacao por resultados|forum dos servidores|banco de substituicao|processo seletivo|\\bissa\\b|instituto de seguridade|valorizacao do servidor|reforma administrativa|estrutura organizacional|lotacao de servidores|cargos de chefia",
+  "Desenvolvimento econômico e emprego": "burocracia zero|alvara|polo industrial|distrito agroindustrial|dainco|banco do empreendedor|microcredito|credito popular|diretoria do empreendedor|juventude digital|banco de empregos|incentivo fiscal|fomento ao pequeno|empreendedor",
+  "Segurança e Guarda Municipal": "guarda municipal|patrulha de seguranca|videomonitoramento|vigilancia eletronica|monitoramento eletronico|policia militar|seguranca escolar|banco de horas",
+  "Infraestrutura, drenagem e mobilidade": "drenagem|pavimenta|recapeamento|asfalt|macrodrenagem|vias urbanas|ciclovia|ciclofaixa|pedala anapolis|semaforo|transporte publico|transporte coletivo|\\bpdtu\\b|plano de mobilidade|sinalizacao|vias rurais|estradas vicinais",
+  "Meio ambiente e resíduos": "coleta seletiva|ecoponto|aterro sanitario|residuos solidos|reciclag|arborizacao|licenciamento ambiental|licenca ambiental|usina solar|energia solar|saneago|esgoto|bem-estar animal|castracao",
+  "Assistência social e habitação": "\\bcras\\b|\\bcreas\\b|cadunico|cadastro unico|bolsa familia|restaurante popular|situacao de rua|deficit habitacional|habitacional|moradia|regularizacao fundiaria|cartao cidadao|acolhimento",
+  "Cultura": "fundo municipal de cultura|economia criativa|catirana|casa do artesanato|feira das aguas|museu|centro cultural|lei de incentivo|chamamento[^.]{0,60}cultura",
+  "Esporte e lazer": "bolsa atleta|arena esportiva|arenas sinteticas|praca esportiva|liga anapolina|parque da crianca|zeca puglise|conselho municipal do esporte|campeonato",
+  "Governo digital e dados": "software|sistema de informa|saas|aplicativo|plataforma digital|transformacao digital|serpro|whatsapp|conecta anapolis|tecnologia da informacao|gabinete de gestao integrada|governanca inteligente|digitalizacao|big ?data|inteligencia artificial",
+  "Transparência, integridade e auditoria": "transparencia|programa de integridade|auditoria|compliance|lgpd|protecao de dados|encarregado|ouvidoria|lei de acesso|\\bsic\\b|combate a corrupcao",
+  "Plano Diretor e uso do solo": "plano diretor|zoneamento|uso e ocupacao do solo|parcelamento do solo"
  }
 }

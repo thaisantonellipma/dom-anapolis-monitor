@@ -43,9 +43,8 @@ def avalia(a, cfg):
         add("Contratação temporária", "MEDIA", "Contratação temporária ou processo seletivo simplificado")
     if a["tipo_edicao"] and "Di" not in a["tipo_edicao"][:2]:
         add("Edição extra", "ACOMPANHAR", f"Publicado em {a['tipo_edicao']}")
-    prior = [nome for nome, rx in cfg["prioridades"].items() if re.search(rx, t)]
-    if a["orgao"].startswith("SEMUSA") and "Saúde" not in prior: prior.append("Saúde")
-    if a["orgao"].startswith("SEMED") and "Educação e creches" not in prior: prior.append("Educação e creches")
+    objeto = norm(a["titulo"]) + " " + norm(a["texto"][:900])   # só título e objeto, não cláusulas-padrão
+    prior = [nome for nome, rx in cfg["prioridades"].items() if re.search(rx, objeto)]
     for p in prior:
         add("Prioridade de governo", "ACOMPANHAR", p)
     a["prioridades"] = prior
