@@ -11,7 +11,7 @@
  "contratacao_direta": "dispensa de licita|inexigibilidade|contratacao emergencial|emergencia|calamidade|credenciamento",
  "aditivo": "termo aditivo|apostilamento|prorrogacao|reajuste|repactuacao|reequilibrio",
  "cancelamento": "cancelamento|revogacao|anulacao|suspensao|fracassad|deserta",
- "cargo_estrategico": "(nomear|nomeia|designa|exonera)[^.]{0,200}?(cargo de|funcao de)\\s+(secretari[oa]|subsecretari|controlador|procurador[- ]geral|chefe de gabinete|diretor[- ]presidente|presidente|superintendente)",
+ "cargo_estrategico": "(nomear|nomeia|designa|designar|exonera|exonerar)[^.]{0,220}?(cargo de|funcao de|na funcao|para exercer o cargo)[^.]{0,60}?\\b(secretari[oa]|subsecretari[oa]|superintendente|gerente|controlador[a]?|procurador[a]?[- ]geral|chefe de gabinete|diretor[a]?[- ]presidente|presidente|diretor[a]?(?! (?:de |da |do )?(?:escola|unidade escolar|cmei|centro municipal de educacao infantil)))",
  "temporario": "contratacao temporaria|processo seletivo simplificado|excepcional interesse publico|contrato temporario",
  "pessoal_movimento": "\\b(nomeia|nomear|exonera|exonerar|designa|designar|remaneja)\\b",
  "prioridades": {
@@ -29,5 +29,6 @@
   "Governo digital e dados": "software|sistema de informa|saas|aplicativo|plataforma digital|transformacao digital|serpro|whatsapp|conecta anapolis|tecnologia da informacao|gabinete de gestao integrada|governanca inteligente|digitalizacao|big ?data|inteligencia artificial",
   "Transparência, integridade e auditoria": "transparencia|programa de integridade|auditoria|compliance|lgpd|protecao de dados|encarregado|ouvidoria|lei de acesso|\\bsic\\b|combate a corrupcao",
   "Plano Diretor e uso do solo": "plano diretor|zoneamento|uso e ocupacao do solo|parcelamento do solo"
- }
+ },
+ "gabinete_orgao": "^Gabinete"
 }

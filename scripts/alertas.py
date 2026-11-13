@@ -37,8 +37,11 @@ def avalia(a, cfg):
         add("Cancelamento", "MEDIA", "Cancelamento, suspensão, revogação ou licitação fracassada")
     if a["classe"] == "Errata/Retificação":
         add("Retificação", "MEDIA", "Errata ou retificação de ato já publicado")
-    if a["classe"] == "Portaria" and re.search(cfg["cargo_estrategico"], ementa):
-        add("Cargo estratégico", "MEDIA", "Nomeação, designação ou exoneração em cargo de direção")
+    movimento = a["classe"] in ("Portaria", "Decreto") and bool(re.search(cfg["pessoal_movimento"], ementa))
+    if movimento and re.search(cfg["cargo_estrategico"], ementa):
+        add("Cargo estratégico", "MEDIA", "Nomeação, designação ou exoneração em cargo de direção (secretário até gerente)")
+    if movimento and re.search(cfg["gabinete_orgao"], a["orgao"]):
+        add("Gabinete do Prefeito", "MEDIA", "Movimentação de pessoal vinculada ao Gabinete (todas são monitoradas)")
     if re.search(cfg["temporario"], t):
         add("Contratação temporária", "MEDIA", "Contratação temporária ou processo seletivo simplificado")
     if a["tipo_edicao"] and "Di" not in a["tipo_edicao"][:2]:
@@ -48,7 +51,7 @@ def avalia(a, cfg):
     for p in prior:
         add("Prioridade de governo", "ACOMPANHAR", p)
     a["prioridades"] = prior
-    a["pessoal"] = a["classe"] == "Portaria" and bool(re.search(cfg["pessoal_movimento"], ementa))
+    a["pessoal"] = a["classe"] in ("Portaria", "Decreto") and bool(re.search(cfg["pessoal_movimento"], ementa))
     a["alertas"] = r
     a["sev"] = max((x["sev"] for x in r), key=lambda s: ORDEM[s], default="")
     return a
