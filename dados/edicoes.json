@@ -1,5 +1,95 @@
 [
  {
+  "id": 22210,
+  "numero": "3.973",
+  "data": "2026-07-03",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607034073",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23464/rihCoE80lk9dRC1CnmidQHW0uxWb9Xx9d2hE1cuH.pdf",
+  "bytes": 545167
+ },
+ {
+  "id": 22243,
+  "numero": "3.974",
+  "data": "2026-07-06",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607069992",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23497/usrgrOAg59fD6wHdntalvY0Osx4yHv2pixMHsHOL.pdf",
+  "bytes": 446692
+ },
+ {
+  "id": 22276,
+  "numero": "3.975",
+  "data": "2026-07-07",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607073428",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23530/QBePYOpFTLJSKSty65upNG1KIOhUcug2xgfWpX7y.pdf",
+  "bytes": 494015
+ },
+ {
+  "id": 22309,
+  "numero": "3.976",
+  "data": "2026-07-08",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607080942",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23563/RK5uXGnap3IRBwnvUWK4ySrlfoHXYZF8lxUXtoFo.pdf",
+  "bytes": 520586
+ },
+ {
+  "id": 22342,
+  "numero": "3.977",
+  "data": "2026-07-09",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607093031",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23596/jwKzwR2Ri2EbVJI61gVACLy6JgNYJQn4M7aVwatZ.pdf",
+  "bytes": 498958
+ },
+ {
+  "id": 22375,
+  "numero": "3.978",
+  "data": "2026-07-10",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607100434",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23629/jlA8tvayumfwt5f85tLpJofYqtrv5KmQbxNiMxQk.pdf",
+  "bytes": 517078
+ },
+ {
+  "id": 22408,
+  "numero": "3.979",
+  "data": "2026-07-13",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607138943",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23662/zjoKDQWl5FV27OPrMcQihPETi0WFVS8xCXb9iRhG.pdf",
+  "bytes": 439586
+ },
+ {
+  "id": 22441,
+  "numero": "3.980",
+  "data": "2026-07-14",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607140658",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23695/981a5kUyUhUfbtuVp9PlmfQ4rhUUOvg3oJb02J3Z.pdf",
+  "bytes": 544909
+ },
+ {
+  "id": 22474,
+  "numero": "3.981",
+  "data": "2026-07-15",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202607155305",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/23728/DCofnuiGysUZ6fLc4Qn3KaiLIjqtcQdIIELY6F4Y.pdf",
+  "bytes": 508118
+ },
+ {
   "id": 22507,
   "numero": "3.982",
   "data": "2026-07-16",
@@ -248,5 +338,735 @@
   "codigo_icp": "202608130006",
   "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24553/BkL6EqTHUrir39JhgddIvrNAQbeNXeJCTLSjJHCu.pdf",
   "bytes": 558012
+ },
+ {
+  "id": 23332,
+  "numero": "4.004",
+  "data": "2026-08-14",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608146295",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24586/3RolwY8B0VWG6HFacpMdnHbEaIbgnE6XM2u84XDO.pdf",
+  "bytes": 535571
+ },
+ {
+  "id": 23365,
+  "numero": "4.005",
+  "data": "2026-08-17",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608171986",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24619/1WjWaDj13zSjknAsvfoqwM3lEFrv8LAHwWpprRnw.pdf",
+  "bytes": 560598
+ },
+ {
+  "id": 23398,
+  "numero": "4.006",
+  "data": "2026-08-18",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608181347",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24652/ouYG4UMwuUCubBnGRAhvDx1jRU3JL4997RCWTZWi.pdf",
+  "bytes": 589187
+ },
+ {
+  "id": 23431,
+  "numero": "4.007",
+  "data": "2026-08-19",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608191444",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24685/rlBxT4FpGaWt6m7ASuk3bacehJMCL68hA023JaH3.pdf",
+  "bytes": 572781
+ },
+ {
+  "id": 23464,
+  "numero": "4.008",
+  "data": "2026-08-20",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608203705",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24718/qqh78ko12wRpmOWkv2Du9gMGyd6PvncBzAndrx2h.pdf",
+  "bytes": 589698
+ },
+ {
+  "id": 23497,
+  "numero": "4.009",
+  "data": "2026-08-21",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608219882",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24751/42uD2qHTIeBO9lhG6rW32LZAuUIBP579imivJo5G.pdf",
+  "bytes": 535150
+ },
+ {
+  "id": 23530,
+  "numero": "4.010",
+  "data": "2026-08-24",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608243384",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24784/5xErsmUL3jZO3YOdULTPMIUTQTW1J5vTGb0sEjuV.pdf",
+  "bytes": 536736
+ },
+ {
+  "id": 23563,
+  "numero": "4.011",
+  "data": "2026-08-25",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608259346",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24817/QyzPvwZvkL4iTaZNx8poItylQCOUXybujPjB5wTd.pdf",
+  "bytes": 505262
+ },
+ {
+  "id": 23629,
+  "numero": "4.011",
+  "data": "2026-08-25",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202608250721",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24850/1DLMj0iWQW8lpN7t3ZHi1hWa9WSLpCHCy5hzRlU4.pdf",
+  "bytes": 893872
+ },
+ {
+  "id": 23596,
+  "numero": "4.012",
+  "data": "2026-08-26",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608266411",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24883/OlgRjpT62wta2n1CATxrfbzrIbzb9d1uMIDXpayq.pdf",
+  "bytes": 502238
+ },
+ {
+  "id": 23662,
+  "numero": "4.013",
+  "data": "2026-08-27",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608278534",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24916/TLviRJtSU6DQH4nhbq6wi9QKIN0yDj0vvUsd6A9T.pdf",
+  "bytes": 480961
+ },
+ {
+  "id": 23695,
+  "numero": "4.014",
+  "data": "2026-08-28",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608286258",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24949/LWmH7Q0fR1PTg94T9d8Or3i9PIVrD04s4SPW7TFu.pdf",
+  "bytes": 468997
+ },
+ {
+  "id": 23728,
+  "numero": "4.015",
+  "data": "2026-08-31",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202608311300",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24982/GPPTP4WNDgdh4bbxxd7Ohp60n6cFNZHMsyM390el.pdf",
+  "bytes": 466310
+ },
+ {
+  "id": 23761,
+  "numero": "4.016",
+  "data": "2026-09-01",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609018059",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25015/ztGIsm9uezV8aUTaFypRiZ7n5MH1XaXZUnWOXsWi.pdf",
+  "bytes": 539960
+ },
+ {
+  "id": 23794,
+  "numero": "4.017",
+  "data": "2026-09-02",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609028932",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25048/B6rZAz5pMzrkA5Y8YJZ0QwaKHH8S3HrXmW5bQsuU.pdf",
+  "bytes": 456163
+ },
+ {
+  "id": 23827,
+  "numero": "4.018",
+  "data": "2026-09-03",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609035197",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25081/T7198fsE2PRwGUqjMprwZSJ0tU3tFPAVfCIiAAUt.pdf",
+  "bytes": 621633
+ },
+ {
+  "id": 23893,
+  "numero": "4.018",
+  "data": "2026-09-03",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202609031653",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25114/K4GqeJ4SDNdzojRYEJhsRpCtYeEpoO1MzJDBiRye.pdf",
+  "bytes": 680125
+ },
+ {
+  "id": 23926,
+  "numero": "4.019",
+  "data": "2026-09-04",
+  "tipo": "Edição Extraordinária",
+  "situacao": "Publicado",
+  "codigo_icp": "202609047425",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25147/wUOdJKcixkTdZUXgovCOtufIPWeseMOXEvPTCzOU.pdf",
+  "bytes": 381626
+ },
+ {
+  "id": 23860,
+  "numero": "4.020",
+  "data": "2026-09-04",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609044283",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25180/31IgO46jzc8cRfQz3KGaJgDXh0NV6RtCKCM5YXEg.pdf",
+  "bytes": 537112
+ },
+ {
+  "id": 23959,
+  "numero": "4.021",
+  "data": "2026-09-08",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609083543",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25213/ABBZX3kU2fuuCdBJ9h6vezCyyS95xHHtm8DB1nMi.pdf",
+  "bytes": 446903
+ },
+ {
+  "id": 24025,
+  "numero": "4.021",
+  "data": "2026-09-08",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202609089994",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25246/U3QX6UKZZYg8jncxXhjuw8knuxb8WdUwykeyp6gL.pdf",
+  "bytes": 564562
+ },
+ {
+  "id": 23992,
+  "numero": "4.022",
+  "data": "2026-09-09",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609096519",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25279/VoV1GU3cWlVgtOII0T7Mt1MJ9RMRgpAIpYHHL85o.pdf",
+  "bytes": 532372
+ },
+ {
+  "id": 24058,
+  "numero": "4.023",
+  "data": "2026-09-10",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609105136",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25312/8nLdgsIqsQstzYvSPQnZELaa23P67czz70XiNQJa.pdf",
+  "bytes": 592043
+ },
+ {
+  "id": 24091,
+  "numero": "4.024",
+  "data": "2026-09-11",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609117987",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25345/BEcNQqcL0F8WnHAbD0bP7RX225n9Iwc0NJADg03F.pdf",
+  "bytes": 609824
+ },
+ {
+  "id": 24124,
+  "numero": "4.025",
+  "data": "2026-09-14",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609144050",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25378/gAva7R4MmwBaO1T7MutxMKddN0xkDDeQWMfo6LQI.pdf",
+  "bytes": 559843
+ },
+ {
+  "id": 24157,
+  "numero": "4.026",
+  "data": "2026-09-15",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609156616",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25411/n3ivDtmrpwMScZS0G2vvpMnTLsrNv3le5nE2xpLQ.pdf",
+  "bytes": 542731
+ },
+ {
+  "id": 24223,
+  "numero": "4.027",
+  "data": "2026-09-16",
+  "tipo": "Edição Extraordinária",
+  "situacao": "Publicado",
+  "codigo_icp": "202609162802",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25444/YyT3zTM65vY85dmQrM0QFeuL3OAC4Yxg2OfXomYW.pdf",
+  "bytes": 441133
+ },
+ {
+  "id": 24190,
+  "numero": "4.028",
+  "data": "2026-09-16",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609161394",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25477/aLdTLAqE846YVnwMe8VUycHPtcpuJM044MaM9b61.pdf",
+  "bytes": 747981
+ },
+ {
+  "id": 24256,
+  "numero": "4.028",
+  "data": "2026-09-16",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202609160959",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25510/3eNzyUywZdFVMSTO8ZtXgej4ksFEHqZDDTSlPLeW.pdf",
+  "bytes": 588694
+ },
+ {
+  "id": 24224,
+  "numero": "4.029",
+  "data": "2026-09-17",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609178358",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25543/7gzTeAuZUBNB4Rsd87X9mno3chhsgmYo9vKrIjDX.pdf",
+  "bytes": 570052
+ },
+ {
+  "id": 24322,
+  "numero": "4.030",
+  "data": "2026-09-18",
+  "tipo": "Edição Extraordinária",
+  "situacao": "Publicado",
+  "codigo_icp": "202609186534",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25576/yAZLJVtNcnVuYgCJntrcB6HHl3B0vO7x3tNtn42K.pdf",
+  "bytes": 389048
+ },
+ {
+  "id": 24289,
+  "numero": "4.031",
+  "data": "2026-09-18",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609182386",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25609/WfrnzqAqDCtiZ8fEHjg75ikAW2wVfIW4kAwPaod6.pdf",
+  "bytes": 483686
+ },
+ {
+  "id": 24323,
+  "numero": "4.032",
+  "data": "2026-09-21",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609211638",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25642/uLWMeu5JhttLgHkfvCZX7e5ISoX9sG7RuaaChEtq.pdf",
+  "bytes": 471843
+ },
+ {
+  "id": 24355,
+  "numero": "4.033",
+  "data": "2026-09-22",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609223548",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25675/deoZnx15NfMgXZWt2UTa19V2BqqviVIzSqEgC59P.pdf",
+  "bytes": 490517
+ },
+ {
+  "id": 24388,
+  "numero": "4.034",
+  "data": "2026-09-23",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609235394",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25708/86QfDwtOcOMqgaiWgqJGVDDE4QbAmsXXoEt3rW0T.pdf",
+  "bytes": 553308
+ },
+ {
+  "id": 24421,
+  "numero": "4.035",
+  "data": "2026-09-24",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609247614",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25741/uauPibndhZUFpAgMSA30wOSnnM4UpheRnE3r90Cs.pdf",
+  "bytes": 470746
+ },
+ {
+  "id": 24454,
+  "numero": "4.036",
+  "data": "2026-09-25",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609256819",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25774/F6LR1iGF9lLwv6HrvpJdTa6AqqqMZujkqkZ5LE4C.pdf",
+  "bytes": 704117
+ },
+ {
+  "id": 24520,
+  "numero": "4.036",
+  "data": "2026-09-25",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202609257473",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25807/PvRYtyQtBssRJNs4TXmoqcXGXHXytCWrUQLiuRX0.pdf",
+  "bytes": 604997
+ },
+ {
+  "id": 24586,
+  "numero": "4.038",
+  "data": "2026-09-26",
+  "tipo": "Edição Extraordinária",
+  "situacao": "Publicado",
+  "codigo_icp": "202609268046",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25873/QN5YAcpdDGZ38zjVqpLoyw0LyVn3yMakhoj2dxda.pdf",
+  "bytes": 382371
+ },
+ {
+  "id": 24487,
+  "numero": "4.038",
+  "data": "2026-09-28",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609284417",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25906/uy1FYiWlf1MmpofaCzW6WvOfknzWLdYXt2EY0RDA.pdf",
+  "bytes": 545275
+ },
+ {
+  "id": 24619,
+  "numero": "4.039",
+  "data": "2026-09-29",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609298990",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25939/n7pLrYO5a783mDvQwMSXzMxqXUGCH9Rmt8ThZ8NC.pdf",
+  "bytes": 581604
+ },
+ {
+  "id": 24652,
+  "numero": "4.040",
+  "data": "2026-09-30",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202609302690",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/25972/5d3Jz1AjYN0WPi8naHyGMmwb6JFYWEfQdum96X8J.pdf",
+  "bytes": 485509
+ },
+ {
+  "id": 24685,
+  "numero": "4.040",
+  "data": "2026-09-30",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202609303012",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26005/WyhvKdX4LAQkCtRSXHC5LYquakoPr1YWENq7HLcT.pdf",
+  "bytes": 403589
+ },
+ {
+  "id": 24718,
+  "numero": "4.041",
+  "data": "2026-10-01",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610017868",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26038/5L0RsurNnGiHyPQuDXha7Mk1UmF7pdFXWRvkjKsx.pdf",
+  "bytes": 576812
+ },
+ {
+  "id": 24751,
+  "numero": "4.042",
+  "data": "2026-10-02",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610023846",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26071/kstu1zYtw27vv1MNplLWtRzE88dS5NapPTpIkU55.pdf",
+  "bytes": 425171
+ },
+ {
+  "id": 24784,
+  "numero": "4.043",
+  "data": "2026-10-05",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610052180",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26104/EnO22TOnSRPA3DZjLwm90HhSDYAB2cGuV0Ww0ONV.pdf",
+  "bytes": 443232
+ },
+ {
+  "id": 24817,
+  "numero": "4.044",
+  "data": "2026-10-06",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610063202",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26137/dAMaGA9ZH4LdMSK6dKh7QopAbAyXhRLOjPu0g8Ra.pdf",
+  "bytes": 564615
+ },
+ {
+  "id": 24850,
+  "numero": "4.045",
+  "data": "2026-10-07",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610073774",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26170/GORft0ahEAfMe2DN7FGbsBJqhug9jb3z2JB7yOka.pdf",
+  "bytes": 567396
+ },
+ {
+  "id": 24883,
+  "numero": "4.046",
+  "data": "2026-10-08",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610087878",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26203/QME7qEjPz3eGvN5TIvF02o3scKNP8HPC9BYi3V0p.pdf",
+  "bytes": 561727
+ },
+ {
+  "id": 24916,
+  "numero": "4.047",
+  "data": "2026-10-09",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610099230",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26236/E2iaxxs5yj7IxuH31LYTCNwNlzlOSPRBqCxa4nVv.pdf",
+  "bytes": 620978
+ },
+ {
+  "id": 24949,
+  "numero": "4.048",
+  "data": "2026-10-13",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610137404",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26269/O7TBSzCLfj9nWt3bRBVz4GI9Ri8ZFvwJexoKRwI7.pdf",
+  "bytes": 566267
+ },
+ {
+  "id": 24982,
+  "numero": "4.049",
+  "data": "2026-10-14",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610144790",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26302/CBhosUO1yn5mbKCJ5QUhLeRlvo198qx6KN3zLUmy.pdf",
+  "bytes": 563445
+ },
+ {
+  "id": 25015,
+  "numero": "4.050",
+  "data": "2026-10-15",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610158200",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26335/EvXNoLnRqmR7uOj0wzAqMvUjU06BE22XmJobSehd.pdf",
+  "bytes": 538637
+ },
+ {
+  "id": 25048,
+  "numero": "4.051",
+  "data": "2026-10-16",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610165333",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26368/fHJVvAXr2clo3Hh35xIExu0OP1mtodRhmVVDDch0.pdf",
+  "bytes": 500371
+ },
+ {
+  "id": 25081,
+  "numero": "4.052",
+  "data": "2026-10-19",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610196954",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26401/QJfiNeVSLQIJzQeByRw946be2ZoSVOydMXEyyMBh.pdf",
+  "bytes": 515991
+ },
+ {
+  "id": 25114,
+  "numero": "4.053",
+  "data": "2026-10-20",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610208077",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26434/01XFFCMO2xC4MTAetVfRbb4hqXOdJx0i83EEjVWd.pdf",
+  "bytes": 512652
+ },
+ {
+  "id": 25147,
+  "numero": "4.054",
+  "data": "2026-10-21",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610211948",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26467/yWgb49VdsVQ1tpWKLVkiWZrztKM1c16EyASxbrIL.pdf",
+  "bytes": 540938
+ },
+ {
+  "id": 25180,
+  "numero": "4.055",
+  "data": "2026-10-22",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610228053",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26500/PQjCWRdvRo6pcCV1RDm3hBrNcRN1iCue4Cu8nJsJ.pdf",
+  "bytes": 572677
+ },
+ {
+  "id": 25213,
+  "numero": "4.056",
+  "data": "2026-10-23",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610237968",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26533/lXUG9ouO0ApkAqFpmTlqR9X3BEaR5HhljlXQiI3b.pdf",
+  "bytes": 480034
+ },
+ {
+  "id": 25246,
+  "numero": "4.057",
+  "data": "2026-10-26",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610261831",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26566/WvZ1zwCUuTmriflGh7xGNScCoK17xsgS1VtuukUq.pdf",
+  "bytes": 474278
+ },
+ {
+  "id": 25279,
+  "numero": "4.058",
+  "data": "2026-10-27",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610278726",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26599/oMb6oXoWQ0lmlG8R2Gq6QTRPD5SrU7a6QAGBip6j.pdf",
+  "bytes": 449822
+ },
+ {
+  "id": 25312,
+  "numero": "4.059",
+  "data": "2026-10-28",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610280578",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26632/Z0ELBl3eDUXZqdLCnuS71MoznlQpuBouKemdyTCY.pdf",
+  "bytes": 544551
+ },
+ {
+  "id": 25378,
+  "numero": "4.060",
+  "data": "2026-10-29",
+  "tipo": "Edição Extraordinária",
+  "situacao": "Publicado",
+  "codigo_icp": "202610293425",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26665/HUNn6O5MAELMR697ovdTHw0jxsA1edzusQgOQRJB.pdf",
+  "bytes": 433053
+ },
+ {
+  "id": 25345,
+  "numero": "4.061",
+  "data": "2026-10-29",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202610299258",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26698/c6gEwwGHnrkq0OI00T3oIS77npDFlv6f2zaRcVCl.pdf",
+  "bytes": 599636
+ },
+ {
+  "id": 25411,
+  "numero": "4.062",
+  "data": "2026-11-03",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611037755",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26731/MXoxoQjy26qqy6nf8VazLrWFoyvNoriyITRVk0lI.pdf",
+  "bytes": 456412
+ },
+ {
+  "id": 25444,
+  "numero": "4.063",
+  "data": "2026-11-04",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611049423",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26797/AXOiB9OFFedSdVbHkWdaeWqoPLLk9RMhWYpReNcR.pdf",
+  "bytes": 637766
+ },
+ {
+  "id": 25477,
+  "numero": "4.064",
+  "data": "2026-11-05",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611053548",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26830/LR9XQeRyFEKWRZE4fU69tFugIMzwBe97UiU2JwgD.pdf",
+  "bytes": 483891
+ },
+ {
+  "id": 25510,
+  "numero": "4.065",
+  "data": "2026-11-06",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611065793",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26863/o9qYZaJ6yinfzeoGvFxxzHe5JrPIi50Mh1g0XFIB.pdf",
+  "bytes": 705102
+ },
+ {
+  "id": 25576,
+  "numero": "4.066",
+  "data": "2026-11-09",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611096654",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26896/U6vnofH0ApXG3zs2Ch8zWXQ3Cgxmri0D4VQEwN08.pdf",
+  "bytes": 505776
+ },
+ {
+  "id": 25609,
+  "numero": "4.067",
+  "data": "2026-11-10",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611106153",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26929/laksh5hOgmREvjzgII6DJ3UHmLO2sEnr4DU1tNkW.pdf",
+  "bytes": 612223
+ },
+ {
+  "id": 25642,
+  "numero": "4.068",
+  "data": "2026-11-11",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611115971",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26962/W5MrBVqG7TJ1pXMZFECJeAJGAs4D8NW4aKGVJXbW.pdf",
+  "bytes": 616356
+ },
+ {
+  "id": 25675,
+  "numero": "4.069",
+  "data": "2026-11-12",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611120818",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/26995/7AZBWfyiJKnd4p8X2nLcYwPDgvOqZwrTybgyrktk.pdf",
+  "bytes": 542217
+ },
+ {
+  "id": 25741,
+  "numero": "4.069",
+  "data": "2026-11-12",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202611124756",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/27028/6uZHxiTqWF9QnJLtCmuQ3f0eyZ1P4K9UnRyuk2G4.pdf",
+  "bytes": 391366
  }
 ]

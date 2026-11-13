@@ -1,4 +1,130 @@
 {
+ "2026-07-03": {
+  "data": "2026-07-03",
+  "edicoes": [
+   "3.973 (Diário Oficial)"
+  ],
+  "atos": 35,
+  "pessoal": 4,
+  "alta": 1,
+  "media": 6,
+  "valor_citado": 4397705.66,
+  "alertas_dia": []
+ },
+ "2026-07-06": {
+  "data": "2026-07-06",
+  "edicoes": [
+   "3.974 (Diário Oficial)"
+  ],
+  "atos": 23,
+  "pessoal": 2,
+  "alta": 12,
+  "media": 5,
+  "valor_citado": 457693.17,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "12 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-07-07": {
+  "data": "2026-07-07",
+  "edicoes": [
+   "3.975 (Diário Oficial)"
+  ],
+  "atos": 17,
+  "pessoal": 2,
+  "alta": 0,
+  "media": 5,
+  "valor_citado": 2952076.85,
+  "alertas_dia": []
+ },
+ "2026-07-08": {
+  "data": "2026-07-08",
+  "edicoes": [
+   "3.976 (Diário Oficial)"
+  ],
+  "atos": 33,
+  "pessoal": 2,
+  "alta": 0,
+  "media": 1,
+  "valor_citado": 607916.15,
+  "alertas_dia": []
+ },
+ "2026-07-09": {
+  "data": "2026-07-09",
+  "edicoes": [
+   "3.977 (Diário Oficial)"
+  ],
+  "atos": 24,
+  "pessoal": 5,
+  "alta": 2,
+  "media": 1,
+  "valor_citado": 3092473.16,
+  "alertas_dia": []
+ },
+ "2026-07-10": {
+  "data": "2026-07-10",
+  "edicoes": [
+   "3.978 (Diário Oficial)"
+  ],
+  "atos": 25,
+  "pessoal": 3,
+  "alta": 3,
+  "media": 3,
+  "valor_citado": 2699813594.15,
+  "alertas_dia": []
+ },
+ "2026-07-13": {
+  "data": "2026-07-13",
+  "edicoes": [
+   "3.979 (Diário Oficial)"
+  ],
+  "atos": 10,
+  "pessoal": 2,
+  "alta": 3,
+  "media": 2,
+  "valor_citado": 663984.4,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "3 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-07-14": {
+  "data": "2026-07-14",
+  "edicoes": [
+   "3.980 (Diário Oficial)"
+  ],
+  "atos": 22,
+  "pessoal": 1,
+  "alta": 6,
+  "media": 9,
+  "valor_citado": 6500540.0,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "4 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-07-15": {
+  "data": "2026-07-15",
+  "edicoes": [
+   "3.981 (Diário Oficial)"
+  ],
+  "atos": 25,
+  "pessoal": 5,
+  "alta": 1,
+  "media": 6,
+  "valor_citado": 5529779.4,
+  "alertas_dia": []
+ },
  "2026-07-16": {
   "data": "2026-07-16",
   "edicoes": [
@@ -55,7 +181,7 @@
   "atos": 15,
   "pessoal": 3,
   "alta": 1,
-  "media": 2,
+  "media": 3,
   "valor_citado": 2006420.16,
   "alertas_dia": []
  },
@@ -67,7 +193,7 @@
   "atos": 29,
   "pessoal": 8,
   "alta": 0,
-  "media": 4,
+  "media": 7,
   "valor_citado": 1661862.72,
   "alertas_dia": []
  },
@@ -93,7 +219,7 @@
   "atos": 27,
   "pessoal": 2,
   "alta": 2,
-  "media": 1,
+  "media": 2,
   "valor_citado": 5720199.92,
   "alertas_dia": []
  },
@@ -161,7 +287,7 @@
   "atos": 55,
   "pessoal": 4,
   "alta": 1,
-  "media": 4,
+  "media": 5,
   "valor_citado": 6298029.48,
   "alertas_dia": []
  },
@@ -240,7 +366,7 @@
   "atos": 50,
   "pessoal": 3,
   "alta": 2,
-  "media": 10,
+  "media": 11,
   "valor_citado": 94148081.16,
   "alertas_dia": []
  },
@@ -252,8 +378,811 @@
   "atos": 23,
   "pessoal": 6,
   "alta": 1,
-  "media": 3,
+  "media": 4,
   "valor_citado": 1693201.02,
+  "alertas_dia": []
+ },
+ "2026-08-14": {
+  "data": "2026-08-14",
+  "edicoes": [
+   "4.004 (Diário Oficial)"
+  ],
+  "atos": 20,
+  "pessoal": 1,
+  "alta": 2,
+  "media": 8,
+  "valor_citado": 99527.19,
+  "alertas_dia": []
+ },
+ "2026-08-17": {
+  "data": "2026-08-17",
+  "edicoes": [
+   "4.005 (Diário Oficial)"
+  ],
+  "atos": 21,
+  "pessoal": 3,
+  "alta": 1,
+  "media": 5,
+  "valor_citado": 8859773.05,
+  "alertas_dia": []
+ },
+ "2026-08-18": {
+  "data": "2026-08-18",
+  "edicoes": [
+   "4.006 (Diário Oficial)"
+  ],
+  "atos": 41,
+  "pessoal": 9,
+  "alta": 9,
+  "media": 12,
+  "valor_citado": 802345.95,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "9 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-08-19": {
+  "data": "2026-08-19",
+  "edicoes": [
+   "4.007 (Diário Oficial)"
+  ],
+  "atos": 42,
+  "pessoal": 4,
+  "alta": 4,
+  "media": 8,
+  "valor_citado": 259633.91999999998,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "4 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-08-20": {
+  "data": "2026-08-20",
+  "edicoes": [
+   "4.008 (Diário Oficial)"
+  ],
+  "atos": 39,
+  "pessoal": 11,
+  "alta": 3,
+  "media": 1,
+  "valor_citado": 13859863.16,
+  "alertas_dia": []
+ },
+ "2026-08-21": {
+  "data": "2026-08-21",
+  "edicoes": [
+   "4.009 (Diário Oficial)"
+  ],
+  "atos": 24,
+  "pessoal": 1,
+  "alta": 3,
+  "media": 7,
+  "valor_citado": 25197224.52,
+  "alertas_dia": []
+ },
+ "2026-08-24": {
+  "data": "2026-08-24",
+  "edicoes": [
+   "4.010 (Diário Oficial)"
+  ],
+  "atos": 44,
+  "pessoal": 7,
+  "alta": 1,
+  "media": 9,
+  "valor_citado": 4011332.86,
+  "alertas_dia": []
+ },
+ "2026-08-25": {
+  "data": "2026-08-25",
+  "edicoes": [
+   "4.011 (Diário Oficial)",
+   "4.011 (Edição Suplementar)"
+  ],
+  "atos": 38,
+  "pessoal": 3,
+  "alta": 1,
+  "media": 4,
+  "valor_citado": 5636153.34,
+  "alertas_dia": []
+ },
+ "2026-08-26": {
+  "data": "2026-08-26",
+  "edicoes": [
+   "4.012 (Diário Oficial)"
+  ],
+  "atos": 38,
+  "pessoal": 1,
+  "alta": 3,
+  "media": 8,
+  "valor_citado": 8622286.09,
+  "alertas_dia": []
+ },
+ "2026-08-27": {
+  "data": "2026-08-27",
+  "edicoes": [
+   "4.013 (Diário Oficial)"
+  ],
+  "atos": 15,
+  "pessoal": 2,
+  "alta": 2,
+  "media": 4,
+  "valor_citado": 24680552.89,
+  "alertas_dia": []
+ },
+ "2026-08-28": {
+  "data": "2026-08-28",
+  "edicoes": [
+   "4.014 (Diário Oficial)"
+  ],
+  "atos": 20,
+  "pessoal": 3,
+  "alta": 5,
+  "media": 2,
+  "valor_citado": 96276060.84,
+  "alertas_dia": []
+ },
+ "2026-08-31": {
+  "data": "2026-08-31",
+  "edicoes": [
+   "4.015 (Diário Oficial)"
+  ],
+  "atos": 16,
+  "pessoal": 4,
+  "alta": 0,
+  "media": 3,
+  "valor_citado": 111129.76000000001,
+  "alertas_dia": []
+ },
+ "2026-09-01": {
+  "data": "2026-09-01",
+  "edicoes": [
+   "4.016 (Diário Oficial)"
+  ],
+  "atos": 55,
+  "pessoal": 3,
+  "alta": 3,
+  "media": 35,
+  "valor_citado": 2115567.91,
+  "alertas_dia": []
+ },
+ "2026-09-02": {
+  "data": "2026-09-02",
+  "edicoes": [
+   "4.017 (Diário Oficial)"
+  ],
+  "atos": 12,
+  "pessoal": 6,
+  "alta": 2,
+  "media": 4,
+  "valor_citado": 6440680.0,
+  "alertas_dia": []
+ },
+ "2026-09-03": {
+  "data": "2026-09-03",
+  "edicoes": [
+   "4.018 (Diário Oficial)",
+   "4.018 (Edição Suplementar)"
+  ],
+  "atos": 36,
+  "pessoal": 8,
+  "alta": 1,
+  "media": 6,
+  "valor_citado": 25716271.13,
+  "alertas_dia": []
+ },
+ "2026-09-04": {
+  "data": "2026-09-04",
+  "edicoes": [
+   "4.019 (Edição Extraordinária)",
+   "4.020 (Diário Oficial)"
+  ],
+  "atos": 53,
+  "pessoal": 9,
+  "alta": 2,
+  "media": 5,
+  "valor_citado": 3059491.03,
+  "alertas_dia": []
+ },
+ "2026-09-08": {
+  "data": "2026-09-08",
+  "edicoes": [
+   "4.021 (Diário Oficial)",
+   "4.021 (Edição Suplementar)"
+  ],
+  "atos": 14,
+  "pessoal": 3,
+  "alta": 1,
+  "media": 3,
+  "valor_citado": 422577.38,
+  "alertas_dia": []
+ },
+ "2026-09-09": {
+  "data": "2026-09-09",
+  "edicoes": [
+   "4.022 (Diário Oficial)"
+  ],
+  "atos": 20,
+  "pessoal": 9,
+  "alta": 0,
+  "media": 3,
+  "valor_citado": 1635.95,
+  "alertas_dia": []
+ },
+ "2026-09-10": {
+  "data": "2026-09-10",
+  "edicoes": [
+   "4.023 (Diário Oficial)"
+  ],
+  "atos": 21,
+  "pessoal": 8,
+  "alta": 1,
+  "media": 5,
+  "valor_citado": 85080.95,
+  "alertas_dia": []
+ },
+ "2026-09-11": {
+  "data": "2026-09-11",
+  "edicoes": [
+   "4.024 (Diário Oficial)"
+  ],
+  "atos": 39,
+  "pessoal": 1,
+  "alta": 3,
+  "media": 17,
+  "valor_citado": 56605304.62,
+  "alertas_dia": []
+ },
+ "2026-09-14": {
+  "data": "2026-09-14",
+  "edicoes": [
+   "4.025 (Diário Oficial)"
+  ],
+  "atos": 45,
+  "pessoal": 5,
+  "alta": 1,
+  "media": 12,
+  "valor_citado": 5607904.58,
+  "alertas_dia": []
+ },
+ "2026-09-15": {
+  "data": "2026-09-15",
+  "edicoes": [
+   "4.026 (Diário Oficial)"
+  ],
+  "atos": 26,
+  "pessoal": 9,
+  "alta": 2,
+  "media": 3,
+  "valor_citado": 2875487.42,
+  "alertas_dia": []
+ },
+ "2026-09-16": {
+  "data": "2026-09-16",
+  "edicoes": [
+   "4.027 (Edição Extraordinária)",
+   "4.028 (Diário Oficial)",
+   "4.028 (Edição Suplementar)"
+  ],
+  "atos": 38,
+  "pessoal": 8,
+  "alta": 5,
+  "media": 9,
+  "valor_citado": 198175247.27,
+  "alertas_dia": []
+ },
+ "2026-09-17": {
+  "data": "2026-09-17",
+  "edicoes": [
+   "4.029 (Diário Oficial)"
+  ],
+  "atos": 17,
+  "pessoal": 8,
+  "alta": 2,
+  "media": 3,
+  "valor_citado": 60796071.12,
+  "alertas_dia": []
+ },
+ "2026-09-18": {
+  "data": "2026-09-18",
+  "edicoes": [
+   "4.030 (Edição Extraordinária)",
+   "4.031 (Diário Oficial)"
+  ],
+  "atos": 23,
+  "pessoal": 1,
+  "alta": 3,
+  "media": 15,
+  "valor_citado": 32256066.759999998,
+  "alertas_dia": []
+ },
+ "2026-09-21": {
+  "data": "2026-09-21",
+  "edicoes": [
+   "4.032 (Diário Oficial)"
+  ],
+  "atos": 22,
+  "pessoal": 2,
+  "alta": 0,
+  "media": 6,
+  "valor_citado": 1658963.15,
+  "alertas_dia": []
+ },
+ "2026-09-22": {
+  "data": "2026-09-22",
+  "edicoes": [
+   "4.033 (Diário Oficial)"
+  ],
+  "atos": 13,
+  "pessoal": 3,
+  "alta": 1,
+  "media": 6,
+  "valor_citado": 26526571.7,
+  "alertas_dia": []
+ },
+ "2026-09-23": {
+  "data": "2026-09-23",
+  "edicoes": [
+   "4.034 (Diário Oficial)"
+  ],
+  "atos": 31,
+  "pessoal": 6,
+  "alta": 5,
+  "media": 6,
+  "valor_citado": 347741.65,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "5 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-09-24": {
+  "data": "2026-09-24",
+  "edicoes": [
+   "4.035 (Diário Oficial)"
+  ],
+  "atos": 13,
+  "pessoal": 5,
+  "alta": 1,
+  "media": 0,
+  "valor_citado": 2487274.3,
+  "alertas_dia": []
+ },
+ "2026-09-25": {
+  "data": "2026-09-25",
+  "edicoes": [
+   "4.036 (Diário Oficial)",
+   "4.036 (Edição Suplementar)"
+  ],
+  "atos": 63,
+  "pessoal": 7,
+  "alta": 3,
+  "media": 7,
+  "valor_citado": 42071003.93,
+  "alertas_dia": []
+ },
+ "2026-09-26": {
+  "data": "2026-09-26",
+  "edicoes": [
+   "4.038 (Edição Extraordinária)"
+  ],
+  "atos": 1,
+  "pessoal": 0,
+  "alta": 0,
+  "media": 0,
+  "valor_citado": 0,
+  "alertas_dia": []
+ },
+ "2026-09-28": {
+  "data": "2026-09-28",
+  "edicoes": [
+   "4.038 (Diário Oficial)"
+  ],
+  "atos": 32,
+  "pessoal": 5,
+  "alta": 4,
+  "media": 4,
+  "valor_citado": 4476262.96,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "3 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-09-29": {
+  "data": "2026-09-29",
+  "edicoes": [
+   "4.039 (Diário Oficial)"
+  ],
+  "atos": 36,
+  "pessoal": 4,
+  "alta": 1,
+  "media": 11,
+  "valor_citado": 130701736.66000001,
+  "alertas_dia": []
+ },
+ "2026-09-30": {
+  "data": "2026-09-30",
+  "edicoes": [
+   "4.040 (Diário Oficial)",
+   "4.040 (Edição Suplementar)"
+  ],
+  "atos": 21,
+  "pessoal": 2,
+  "alta": 0,
+  "media": 4,
+  "valor_citado": 1109717.84,
+  "alertas_dia": []
+ },
+ "2026-10-01": {
+  "data": "2026-10-01",
+  "edicoes": [
+   "4.041 (Diário Oficial)"
+  ],
+  "atos": 37,
+  "pessoal": 1,
+  "alta": 1,
+  "media": 4,
+  "valor_citado": 673876.93,
+  "alertas_dia": []
+ },
+ "2026-10-02": {
+  "data": "2026-10-02",
+  "edicoes": [
+   "4.042 (Diário Oficial)"
+  ],
+  "atos": 5,
+  "pessoal": 0,
+  "alta": 0,
+  "media": 3,
+  "valor_citado": 251783.42,
+  "alertas_dia": []
+ },
+ "2026-10-05": {
+  "data": "2026-10-05",
+  "edicoes": [
+   "4.043 (Diário Oficial)"
+  ],
+  "atos": 13,
+  "pessoal": 0,
+  "alta": 1,
+  "media": 5,
+  "valor_citado": 16381691.33,
+  "alertas_dia": []
+ },
+ "2026-10-06": {
+  "data": "2026-10-06",
+  "edicoes": [
+   "4.044 (Diário Oficial)"
+  ],
+  "atos": 150,
+  "pessoal": 3,
+  "alta": 2,
+  "media": 136,
+  "valor_citado": 26056252.61,
+  "alertas_dia": []
+ },
+ "2026-10-07": {
+  "data": "2026-10-07",
+  "edicoes": [
+   "4.045 (Diário Oficial)"
+  ],
+  "atos": 29,
+  "pessoal": 3,
+  "alta": 1,
+  "media": 9,
+  "valor_citado": 2297430.76,
+  "alertas_dia": []
+ },
+ "2026-10-08": {
+  "data": "2026-10-08",
+  "edicoes": [
+   "4.046 (Diário Oficial)"
+  ],
+  "atos": 35,
+  "pessoal": 6,
+  "alta": 0,
+  "media": 6,
+  "valor_citado": 1889593.7,
+  "alertas_dia": []
+ },
+ "2026-10-09": {
+  "data": "2026-10-09",
+  "edicoes": [
+   "4.047 (Diário Oficial)"
+  ],
+  "atos": 42,
+  "pessoal": 2,
+  "alta": 11,
+  "media": 2,
+  "valor_citado": 294239.73,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "11 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-10-13": {
+  "data": "2026-10-13",
+  "edicoes": [
+   "4.048 (Diário Oficial)"
+  ],
+  "atos": 41,
+  "pessoal": 5,
+  "alta": 5,
+  "media": 8,
+  "valor_citado": 254729.1,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "5 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-10-14": {
+  "data": "2026-10-14",
+  "edicoes": [
+   "4.049 (Diário Oficial)"
+  ],
+  "atos": 30,
+  "pessoal": 1,
+  "alta": 2,
+  "media": 3,
+  "valor_citado": 4753894.28,
+  "alertas_dia": []
+ },
+ "2026-10-15": {
+  "data": "2026-10-15",
+  "edicoes": [
+   "4.050 (Diário Oficial)"
+  ],
+  "atos": 22,
+  "pessoal": 2,
+  "alta": 1,
+  "media": 3,
+  "valor_citado": 685829.41,
+  "alertas_dia": []
+ },
+ "2026-10-16": {
+  "data": "2026-10-16",
+  "edicoes": [
+   "4.051 (Diário Oficial)"
+  ],
+  "atos": 29,
+  "pessoal": 4,
+  "alta": 1,
+  "media": 4,
+  "valor_citado": 217329.78,
+  "alertas_dia": []
+ },
+ "2026-10-19": {
+  "data": "2026-10-19",
+  "edicoes": [
+   "4.052 (Diário Oficial)"
+  ],
+  "atos": 20,
+  "pessoal": 2,
+  "alta": 0,
+  "media": 4,
+  "valor_citado": 1275622.82,
+  "alertas_dia": []
+ },
+ "2026-10-20": {
+  "data": "2026-10-20",
+  "edicoes": [
+   "4.053 (Diário Oficial)"
+  ],
+  "atos": 24,
+  "pessoal": 3,
+  "alta": 2,
+  "media": 7,
+  "valor_citado": 24048585.139999997,
+  "alertas_dia": []
+ },
+ "2026-10-21": {
+  "data": "2026-10-21",
+  "edicoes": [
+   "4.054 (Diário Oficial)"
+  ],
+  "atos": 37,
+  "pessoal": 11,
+  "alta": 6,
+  "media": 6,
+  "valor_citado": 941988.17,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "6 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-10-22": {
+  "data": "2026-10-22",
+  "edicoes": [
+   "4.055 (Diário Oficial)"
+  ],
+  "atos": 39,
+  "pessoal": 5,
+  "alta": 0,
+  "media": 2,
+  "valor_citado": 78000.0,
+  "alertas_dia": []
+ },
+ "2026-10-23": {
+  "data": "2026-10-23",
+  "edicoes": [
+   "4.056 (Diário Oficial)"
+  ],
+  "atos": 13,
+  "pessoal": 5,
+  "alta": 1,
+  "media": 3,
+  "valor_citado": 450000.0,
+  "alertas_dia": []
+ },
+ "2026-10-26": {
+  "data": "2026-10-26",
+  "edicoes": [
+   "4.057 (Diário Oficial)"
+  ],
+  "atos": 21,
+  "pessoal": 2,
+  "alta": 3,
+  "media": 3,
+  "valor_citado": 479445.8,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "3 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
+ },
+ "2026-10-27": {
+  "data": "2026-10-27",
+  "edicoes": [
+   "4.058 (Diário Oficial)"
+  ],
+  "atos": 11,
+  "pessoal": 4,
+  "alta": 1,
+  "media": 3,
+  "valor_citado": 819.06,
+  "alertas_dia": []
+ },
+ "2026-10-28": {
+  "data": "2026-10-28",
+  "edicoes": [
+   "4.059 (Diário Oficial)"
+  ],
+  "atos": 27,
+  "pessoal": 5,
+  "alta": 0,
+  "media": 5,
+  "valor_citado": 359715.76,
+  "alertas_dia": []
+ },
+ "2026-10-29": {
+  "data": "2026-10-29",
+  "edicoes": [
+   "4.060 (Edição Extraordinária)",
+   "4.061 (Diário Oficial)"
+  ],
+  "atos": 53,
+  "pessoal": 3,
+  "alta": 2,
+  "media": 4,
+  "valor_citado": 49338904.11,
+  "alertas_dia": []
+ },
+ "2026-11-03": {
+  "data": "2026-11-03",
+  "edicoes": [
+   "4.062 (Diário Oficial)"
+  ],
+  "atos": 29,
+  "pessoal": 0,
+  "alta": 1,
+  "media": 3,
+  "valor_citado": 5047574.56,
+  "alertas_dia": []
+ },
+ "2026-11-04": {
+  "data": "2026-11-04",
+  "edicoes": [
+   "4.063 (Diário Oficial)"
+  ],
+  "atos": 48,
+  "pessoal": 6,
+  "alta": 1,
+  "media": 6,
+  "valor_citado": 1241731.27,
+  "alertas_dia": []
+ },
+ "2026-11-05": {
+  "data": "2026-11-05",
+  "edicoes": [
+   "4.064 (Diário Oficial)"
+  ],
+  "atos": 35,
+  "pessoal": 3,
+  "alta": 0,
+  "media": 10,
+  "valor_citado": 2240449.12,
+  "alertas_dia": []
+ },
+ "2026-11-06": {
+  "data": "2026-11-06",
+  "edicoes": [
+   "4.065 (Diário Oficial)"
+  ],
+  "atos": 74,
+  "pessoal": 7,
+  "alta": 0,
+  "media": 5,
+  "valor_citado": 3487.5,
+  "alertas_dia": []
+ },
+ "2026-11-09": {
+  "data": "2026-11-09",
+  "edicoes": [
+   "4.066 (Diário Oficial)"
+  ],
+  "atos": 35,
+  "pessoal": 1,
+  "alta": 1,
+  "media": 16,
+  "valor_citado": 5113935.95,
+  "alertas_dia": []
+ },
+ "2026-11-10": {
+  "data": "2026-11-10",
+  "edicoes": [
+   "4.067 (Diário Oficial)"
+  ],
+  "atos": 47,
+  "pessoal": 2,
+  "alta": 3,
+  "media": 12,
+  "valor_citado": 10490218.41,
+  "alertas_dia": []
+ },
+ "2026-11-11": {
+  "data": "2026-11-11",
+  "edicoes": [
+   "4.068 (Diário Oficial)"
+  ],
+  "atos": 43,
+  "pessoal": 8,
+  "alta": 0,
+  "media": 9,
+  "valor_citado": 1254185.2,
+  "alertas_dia": []
+ },
+ "2026-11-12": {
+  "data": "2026-11-12",
+  "edicoes": [
+   "4.069 (Diário Oficial)",
+   "4.069 (Edição Suplementar)"
+  ],
+  "atos": 40,
+  "pessoal": 4,
+  "alta": 0,
+  "media": 17,
+  "valor_citado": 3009524.4,
   "alertas_dia": []
  }
 }
