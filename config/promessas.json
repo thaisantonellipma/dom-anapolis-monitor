@@ -1,0 +1,326 @@
+{
+ "revisado_em": "2026-11-13",
+ "fonte_base": "claude/promessas_prefeito_anapolis.md",
+ "promessas": [
+  {
+   "id": "S1",
+   "eixo": "Saúde",
+   "nome": "Hospitais municipais reativados (Alfredo Abrahão, Georges Hajjar)",
+   "base": "cumprida",
+   "meta": "Reabrir e operar os hospitais municipais",
+   "prazo": "1º dia de mandato / 2025",
+   "nota_base": "Reabertos em 01/01/2025 e 30/07/2025",
+   "regex": "hospital municipal|alfredo abrahao|georges? hajjar|jamel cecilio|hospital da mulher"
+  },
+  {
+   "id": "S2",
+   "eixo": "Saúde",
+   "nome": "Zerar filas de cirurgias, consultas e exames",
+   "base": "parcial",
+   "meta": "Zerar as filas",
+   "prazo": "120 dias (prazo vencido)",
+   "nota_base": "Mutirões em curso; fila de regulação ainda existe",
+   "regex": "cirurgi\\w* eletiv|mutirao|saude agora|corujao|fila de (espera|regulacao)|complexo regulador|regulacao (municipal|de vagas)|exames? (de imagem|laboratoria)"
+  },
+  {
+   "id": "S3",
+   "eixo": "Saúde",
+   "nome": "3 policlínicas",
+   "base": "parcial",
+   "meta": "3 policlínicas",
+   "prazo": "4 anos (2028)",
+   "nota_base": "1ª entregue; 2ª com ordem de serviço em 16/01/2026; 3ª sem evidência",
+   "regex": "policlinic"
+  },
+  {
+   "id": "S4",
+   "eixo": "Saúde",
+   "nome": "2 UPAs novas e pronto-socorro 24h",
+   "base": "risco",
+   "meta": "2 UPAs novas",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Sem obra de UPA nova localizada; reforma da UPA Vila Esperança em curso",
+   "regex": "\\bupa\\b|\\bupas\\b|unidade de pronto atendimento|pronto.socorro"
+  },
+  {
+   "id": "S5",
+   "eixo": "Saúde",
+   "nome": "Hospital Geral e Centro de Diagnóstico",
+   "base": "risco",
+   "meta": "Hospital Geral; centro de diagnóstico",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Centro de Diagnóstico com OS em 28/07/2026; Hospital Geral sem OS",
+   "regex": "hospital geral|centro (municipal )?de diagnostico|diagnostico por imagem|ipaso"
+  },
+  {
+   "id": "S6",
+   "eixo": "Saúde",
+   "nome": "Atenção primária e saúde da família",
+   "base": "parcial",
+   "meta": "Expandir a atenção primária",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Sem balanço público",
+   "regex": "unidade basica|\\bubs\\b|atencao primaria|saude da familia|agente comunitari|atencao basica",
+   "direto": "(reforma|construcao|ampliacao|obra\\w*|equipament\\w+|mobiliario).{0,80}(ubs|unidade basica)|(ubs|unidade basica).{0,80}(reforma|construcao|ampliacao|obra)"
+  },
+  {
+   "id": "E1",
+   "eixo": "Educação",
+   "nome": "20 CMEIs e zerar o déficit de creche",
+   "base": "risco",
+   "meta": "20 CMEIs (5 em 2026, 7 em 2027, 8 em 2028); plano emergencial de creche",
+   "prazo": "2026: 5 / 2027: 7 / 2028: 8",
+   "nota_base": "~2 mil vagas abertas; só 1 CMEI novo anunciado (Vila Norte)",
+   "regex": "\\bcmei\\w*|creche\\w*|educacao infantil|centro municipal de educacao infantil",
+   "direto": "constru\\w+|\\bobras?\\b|\\bvagas?\\b|inaugur\\w+|ampliacao|reforma|locacao|aluguel|credenciamento"
+  },
+  {
+   "id": "E2",
+   "eixo": "Educação",
+   "nome": "Reforma e ampliação de escolas",
+   "base": "parcial",
+   "meta": "Escolas reformadas e ampliadas",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Reformas entregues e em curso (ex.: Inácio Sardinha)",
+   "regex": "escola\\w* municipa\\w*|unidade escolar|reforma\\w* (da|de|na) escola|ampliacao (da|de) escola|quadra escolar|sala\\w* modular|escolas? publicas? municipa\\w+|construcao de escolas",
+   "direto": "reforma|constru\\w+|ampliacao|\\bobras?\\b|quadra|sala\\w* modular|escolas? publicas? municipa\\w+|construcao de escolas"
+  },
+  {
+   "id": "E3",
+   "eixo": "Educação",
+   "nome": "Alimentação, uniforme e material escolar",
+   "base": "parcial",
+   "meta": "Merenda, uniformes e kits",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Cozinhas reformadas e equipadas (declarado)",
+   "regex": "merenda|alimentacao escolar|uniforme\\w*|kit escolar|material escolar|genero\\w* alimenticio\\w* (para|da) (rede|escola)"
+  },
+  {
+   "id": "E4",
+   "eixo": "Educação",
+   "nome": "Tecnologia e robótica na rede",
+   "base": "cumprida",
+   "meta": "Robótica e programação",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Casa do Futuro inaugurada em 08/07/2026",
+   "regex": "robotica|casa do futuro|laboratorio de (informatica|ciencias|inovacao)|programacao e|lousa digital|chromebook|notebook\\w* (para|da) (rede|escola)"
+  },
+  {
+   "id": "D1",
+   "eixo": "Desenvolvimento econômico",
+   "nome": "Burocracia Zero e alvará em 24h",
+   "base": "parcial",
+   "meta": "Alvará em 24h, abertura imediata de empresas",
+   "prazo": "1º ano",
+   "nota_base": "Leis enviadas em 03/2025; falta medir prazo real",
+   "regex": "alvara\\w*|licenciamento (urbano|de obras|de atividade)|burocracia|abertura de empresa|redesim|sala do empreendedor|habite.se"
+  },
+  {
+   "id": "D2",
+   "eixo": "Desenvolvimento econômico",
+   "nome": "Emprego, juventude e qualificação (Juventude Digital)",
+   "base": "parcial",
+   "meta": "5 mil jovens qualificados; emprego e primeiro emprego",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Primeira Chance, Emprega Anápolis e Casa da Juventude em curso",
+   "regex": "primeira chance|jovem aprendiz|casa da juventude|juventude digital|emprega an\\w+|qualificacao profissional|capacitacao profissional|cursos? (de|em) (tecnologia|capacitacao)|programa de estagio"
+  },
+  {
+   "id": "D3",
+   "eixo": "Desenvolvimento econômico",
+   "nome": "Banco do Empreendedor e crédito popular",
+   "base": "sem_evidencia",
+   "meta": "Crédito popular até R$ 3 mil em 90 dias",
+   "prazo": "90 dias (prazo vencido)",
+   "nota_base": "Nada localizado",
+   "regex": "microcredito|banco do (povo|empreendedor)|credito popular|mais credito|fomento ao empreendedor|microempreendedor"
+  },
+  {
+   "id": "D4",
+   "eixo": "Desenvolvimento econômico",
+   "nome": "Polos industriais e atração de investimentos",
+   "base": "sem_evidencia",
+   "meta": "2 polos industriais",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Nada municipal localizado (Daia 5.0 é estadual)",
+   "regex": "distrito agroindustrial|\\bdaia\\b|polo industrial|polo logistico|incentivo\\w* fiscal|zona industrial|pro.?anapolis|programa de incentivo"
+  },
+  {
+   "id": "G1",
+   "eixo": "Segurança",
+   "nome": "Guarda Municipal e segurança urbana",
+   "base": "risco",
+   "meta": "Criar a Guarda Municipal",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Sem lei/concurso localizados; Linha de Frente lançado em 09/04/2026 com o Estado",
+   "regex": "guarda (civil )?municipal|\\bgcm\\b|linha de frente|videomonitoramento|cameras? de (seguranca|monitoramento)|seguranca publica|fiscalizacao urbana|monitoramento eletronico"
+  },
+  {
+   "id": "I1",
+   "eixo": "Infraestrutura e mobilidade",
+   "nome": "Vias, pavimentação e drenagem",
+   "base": "parcial",
+   "meta": "Plano de revitalização de vias; drenagem",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Obras em 23 bairros com equipe própria e 7 com emendas (06/2026)",
+   "regex": "recapeamento|pavimenta\\w+|asfalt\\w+|tapa.buraco|drenagem|galeria\\w* pluvia\\w+|obras de infraestrutura|meio.fio|bueiro|\\bponte\\w*|calcada\\w*|microdrenagem|restauracao de vias"
+  },
+  {
+   "id": "I2",
+   "eixo": "Infraestrutura e mobilidade",
+   "nome": "Transporte coletivo (frota 100% nova)",
+   "base": "risco",
+   "meta": "100% da frota de ônibus renovada; tarifa mais baixa",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Discurso de frota nova; concessionária pediu reajuste",
+   "regex": "transporte (coletivo|publico)|onibus|tarifa (tecnica|publica|de onibus|do transporte)|terminal (urbano|de integracao)|subsidio ao transporte|concessao do transporte"
+  },
+  {
+   "id": "I3",
+   "eixo": "Infraestrutura e mobilidade",
+   "nome": "Trânsito, semáforos e sinalização",
+   "base": "parcial",
+   "meta": "Semáforos inteligentes e sinalização revitalizada",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Citados em 2025",
+   "regex": "semaforo\\w*|sinalizacao (viaria|horizontal|vertical)|faixa de pedestre|radar\\w*|lombada\\w*|painel\\w* de mensagem|centro de controle de transito"
+  },
+  {
+   "id": "I4",
+   "eixo": "Infraestrutura e mobilidade",
+   "nome": "Iluminação pública",
+   "base": "parcial",
+   "meta": "Iluminação em LED e ampliação da rede",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Sem balanço público",
+   "regex": "iluminacao publica|luminaria\\w*|\\bled\\b|ilumina\\w+ (de|da) praca|rede de iluminacao|cosip"
+  },
+  {
+   "id": "I5",
+   "eixo": "Infraestrutura e mobilidade",
+   "nome": "Revitalização do Centro e Cidade Administrativa",
+   "base": "parcial",
+   "meta": "Revitalizar o Centro; Cidade Administrativa",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Projeto do Centro aprovado; Cidade Administrativa anunciada em 06/2026",
+   "regex": "revitaliza\\w+|requalifica\\w+|cidade administrativa|centro de convencoes|adote um espaco|praca\\w* (publica|do|da)|paisagismo"
+  },
+  {
+   "id": "M1",
+   "eixo": "Meio ambiente",
+   "nome": "Limpeza urbana, resíduos e EcoPontos",
+   "base": "parcial",
+   "meta": "≥5 EcoPontos; coleta seletiva",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Contrato de R$ 131,8 mi homologado em 24/04/2026; 1 ecoponto com reclamações",
+   "regex": "limpeza urbana|residuos? solid\\w+|coleta seletiva|ecoponto\\w*|aterro sanitario|cata.treco|entulho\\w*|catador\\w*|coleta de lixo|pmgirs|capina|rocagem"
+  },
+  {
+   "id": "M2",
+   "eixo": "Meio ambiente",
+   "nome": "Arborização, parques e licenciamento ambiental",
+   "base": "parcial",
+   "meta": "Mais áreas verdes e arborização",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Sem balanço público",
+   "regex": "arboriza\\w+|licenciamento ambiental|area\\w* de preservacao|\\bparque\\w* (municipa|ecologico|linear|urbano)|nascente\\w*|plantio de|educacao ambiental|poda de arvore|controle de vetores|dengue"
+  },
+  {
+   "id": "H1",
+   "eixo": "Assistência social e habitação",
+   "nome": "Habitação: Construindo Sonhos",
+   "base": "risco",
+   "meta": "25 mil imóveis subsidiados (programa: 6,5 mil; já citou 10 mil)",
+   "prazo": "4 anos (2028)",
+   "nota_base": "LC 576/2025, LC 604/2026, ITBI isento; entregas não confirmadas",
+   "regex": "construindo sonhos|habitacao|habitaciona\\w+|moradia\\w*|regularizacao fundiaria|\\breurb\\b|\\bitbi\\b|casa propria|aluguel social|conjunto habitacional|agehab",
+   "direto": "construindo sonhos|conjunto habitacional|isencao.{0,60}itbi|itbi.{0,80}isencao|regularizacao fundiaria|\\breurb\\b|unidades? habitaciona\\w+|casa propria|aluguel social|loteamento|moradias?"
+  },
+  {
+   "id": "H2",
+   "eixo": "Assistência social e habitação",
+   "nome": "Assistência social: CRAS, restaurantes e Cartão Cidadão",
+   "base": "sem_evidencia",
+   "meta": "4 novos CRAS; restaurantes populares; Cartão Cidadão",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Nada localizado",
+   "regex": "\\bcras\\b|\\bcreas\\b|assistencia social|cartao cidadao|restaurante\\w* popular\\w*|cesta\\w* basica\\w*|acolhimento (institucional|de)|beneficio\\w* eventua\\w+|casa de passagem|centro pop|situacao de rua|casamento comunitario",
+   "direto": "\\bcras\\b|\\bcreas\\b|restaurante\\w* popular|cartao cidadao|centro pop|acolhimento|cesta\\w* basica|beneficio\\w* eventua\\w+|termo de colaboracao|situacao de rua"
+  },
+  {
+   "id": "C1",
+   "eixo": "Cultura e esporte",
+   "nome": "Cultura: Secretaria, eventos e equipamentos",
+   "base": "parcial",
+   "meta": "Secretaria de Cultura recriada; calendário e equipamentos",
+   "prazo": "1º ano",
+   "nota_base": "Secretaria recriada (SECULT no DOM)",
+   "regex": "\\bcultura\\w*|teatro\\w*|festival|museu|biblioteca|carnaval|\\bshow\\b|apresentacao artistica|contratacao artistica|banda\\w*|artista\\w*|projeto cultural|lei de incentivo|patrimonio historico|artistic\\w+|musica\\w*|\\bshows?\\b|cultural|natal luz|orquestra|coro sinfonico",
+   "direto": "festival|\\bshow\\b|apresentacao artistica|contratacao artistica|teatro|museu|biblioteca|carnaval|projeto cultural|lei de incentivo|banda\\w*|artista\\w*|inexigibilidade|artistic\\w+|musica\\w*|orquestra|cultural"
+  },
+  {
+   "id": "C2",
+   "eixo": "Cultura e esporte",
+   "nome": "Esporte: Secretaria, Arena e equipamentos",
+   "base": "parcial",
+   "meta": "Secretaria de Esportes recriada; Arena Esportiva; reforma de Zeca Puglisi",
+   "prazo": "4 anos (2028)",
+   "nota_base": "Secretaria recriada (SEMESP no DOM); reformas anunciadas em 06/2026",
+   "regex": "esporte\\w*|estadio|zeca puglisi?|ginasio\\w*|\\barena\\w*|\\bquadra\\w* (esportiva|poliesportiva)|atleta\\w*|campeonato\\w*|bolsa atleta|centro de iniciacao|eventos? esportiv\\w+|corrida de rua|torneio\\w*",
+   "direto": "estadio|ginasio|\\barena|quadra|campeonato|atleta|bolsa atleta|zeca|centro de iniciacao|eventos? esportiv\\w+|corrida de rua|torneio\\w*"
+  },
+  {
+   "id": "Q1",
+   "eixo": "Gestão e servidores",
+   "nome": "Reforma administrativa e enxugamento da máquina",
+   "base": "cumprida",
+   "meta": "Reforma administrativa; corte de comissionados",
+   "prazo": "1º ano",
+   "nota_base": "Aprovada em 04/2025 (11 secretarias); comissionados −20,46%",
+   "regex": "reforma administrativa|estrutura organizacional|cargos? comissionad\\w+|banco de servidores comissionados|extin\\w+ (de )?cargo\\w*|reestrutura\\w+|quadro de pessoal",
+   "direto": "reforma administrativa|estrutura organizacional|extin\\w+|reestrutura\\w+"
+  },
+  {
+   "id": "Q2",
+   "eixo": "Gestão e servidores",
+   "nome": "Integridade, controle e auditoria de contratos",
+   "base": "parcial",
+   "meta": "Auditoria de todos os contratos; Programa de Integridade",
+   "prazo": "1º ano",
+   "nota_base": "Código de Ética (Decreto 52.721/2026)",
+   "regex": "integridade|codigo de etica|controladoria|auditoria\\w*|compliance|ouvidoria|transparencia|\\blgpd\\b|lei de acesso",
+   "direto": "auditoria|integridade|codigo de etica|controladoria|compliance|ouvidoria|\\blgpd\\b|transparencia"
+  },
+  {
+   "id": "Q3",
+   "eixo": "Gestão e servidores",
+   "nome": "Governo digital (Conecta Anápolis, canais)",
+   "base": "cumprida",
+   "meta": "Serviços digitais e canal único",
+   "prazo": "2 anos",
+   "nota_base": "Conecta Anápolis e WhatsApp da Prefeitura no ar",
+   "regex": "conecta an\\w+|aplicativo\\w*|digitaliza\\w+|licenca\\w* de software|serpro|whatsapp|plataforma digital|governo digital|sistema de gestao|canal 15[36]"
+  },
+  {
+   "id": "Q4",
+   "eixo": "Gestão e servidores",
+   "nome": "Ajuste fiscal e dívida",
+   "base": "cumprida",
+   "meta": "Equilibrar as contas; renegociar a dívida",
+   "prazo": "2 anos",
+   "nota_base": "Déficit de R$ 270 mi virou superávit de R$ 194 mi; Capag B",
+   "regex": "divida ativa|renegociacao de divida|precatorio\\w*|parcelamento de debito\\w*|\\brefis\\b|anistia|remissao|operacao de credito|financiamento (bndes|caixa)|capag"
+  },
+  {
+   "id": "Q5",
+   "eixo": "Gestão e servidores",
+   "nome": "Concursos e valorização do servidor",
+   "base": "parcial",
+   "meta": "Concurso na Saúde e na Educação; ≥50% das chefias técnicas de carreira",
+   "prazo": "4 anos (2028)",
+   "nota_base": "GT de estudo para concurso da Saúde (Portaria 174/2026); seleção temporária de 58 vagas",
+   "regex": "concurso p\\w+|processo seletivo|selecao simplificada|\\bpccs\\b|plano de cargos|progressao funcional|reajuste (salarial|dos servidores)|data.base|convocacao de aprovados|piso (salarial|do magisterio)",
+   "direto": "concurso|processo seletivo|selecao simplificada|\\bpccs\\b|plano de cargos|reajuste|convocacao de aprovados|piso"
+  }
+ ]
+}

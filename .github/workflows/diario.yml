@@ -39,6 +39,7 @@ jobs:
         run: |
           python scripts/atos.py
           python scripts/alertas.py
+          python scripts/inteligencia.py
           python scripts/painel.py
       - name: Verificar integridade
         id: integridade
