@@ -14,21 +14,22 @@ TIT_MAIUSCULO = re.compile(r"^(EXTRATOS?|EDITAL|TERMO|ATA|AVISO|ERRATA|RETIFICA[
 TIT_COM_NUMERO = re.compile(r"^(CONTRATO|CONV[ÊE]NIO|CREDENCIAMENTO|INEXIGIBILIDADE|DISPENSA)\b.*N[º°o]\s*\d")
 
 ORGAOS = [
-    (r"secretaria municipal de sa[úu]de|semusa|fundo municipal de sa[úu]de", "SEMUSA (Saúde)"),
-    (r"secretaria municipal de educa[çc][ãa]o|semed\b|fundo municipal de educa[çc][ãa]o", "SEMED (Educação)"),
-    (r"administra[çc][ãa]o, gest[ãa]o de pessoas|semad\b", "SEMAD (Administração e Pessoas)"),
-    (r"controladoria[- ]geral|\bcgm\b", "CGM (Controladoria)"),
-    (r"instituto de seguridade|\bissa\b", "ISSA (Previdência)"),
-    (r"procuradoria[- ]geral|\bpgm\b", "PGM (Procuradoria)"),
-    (r"secretaria municipal de governo|segov\b", "SEGOV (Governo)"),
-    (r"secretaria municipal de comunica[çc][ãa]o|secom\b", "SECOM (Comunicação)"),
-    (r"secretaria municipal de cultura", "Cultura e Turismo"),
-    (r"assist[êe]ncia e pol[íi]ticas sociais|assist[êe]ncia social", "Assistência Social"),
-    (r"secretaria municipal de obras|semop|infraestrutura", "Obras e Infraestrutura"),
-    (r"habita[çc][ãa]o|semohpuma|meio ambiente", "Habitação, Urbanismo e Meio Ambiente"),
-    (r"companhia municipal de tr[âa]nsito|\bcmtt\b", "CMTT (Trânsito)"),
-    (r"ag[êe]ncia reguladora|\barm\b", "ARM (Regulação)"),
+    (r"secretaria de governo|segov\b", "SEGOV (Governo)"),
+    (r"administra[çc][ãa]o,? gest|semad\b", "SEMAD (Administração e Pessoas)"),
     (r"gabinete do prefeito|o prefeito de an[áa]polis", "Gabinete do Prefeito"),
+    (r"transporte|tr[âa]nsito|\bcmtt\b", "CMTT (Trânsito e Transporte)"),
+    (r"sa[úu]de|semusa", "SEMUSA (Saúde)"),
+    (r"educa[çc][ãa]o|semed\b", "SEMED (Educação)"),
+    (r"assist[êe]ncia e pol[íi]ticas|semap\b", "SEMAP (Assistência e Políticas Sociais)"),
+    (r"cultura|secult", "SECULT (Cultura e Turismo)"),
+    (r"economia|semec\b", "SEMEC (Economia)"),
+    (r"obras|habita[çc][ãa]o|semohpuma", "Obras, Habitação e Urbanismo"),
+    (r"seguridade|\bissa\b", "ISSA (Previdência)"),
+    (r"comunica[çc][ãa]o|secom\b", "SECOM (Comunicação)"),
+    (r"controladoria|\bcgm\b", "CGM (Controladoria)"),
+    (r"procuradoria|\bpgm\b", "PGM (Procuradoria)"),
+    (r"esporte|semesp", "SEMESP (Esporte)"),
+    (r"fundeb", "Conselho do FUNDEB"),
 ]
 
 ORGAO_CAB = re.compile(r"^(GABINETE|SECRETARIA|CONTROLADORIA|C[ÂA]MARA|PROCURADORIA|INSTITUTO|COMPANHIA|AG[ÊE]NCIA|FUNDO|FUNDA[ÇC][ÃA]O|CONSELHO|SERVI[ÇC]O|AUTARQUIA|PMA)\b[A-ZÇÃÕÉÊÍÓÚÂ ,.\-–/]+$")
@@ -69,11 +70,11 @@ def classe(titulo):
     return "Outros"
 
 def orgao(texto):
-    t = norm(texto[:1200])
+    t = norm(texto)
     for padrao, nome in ORGAOS:
         if re.search(padrao, t):
             return nome
-    return "Não identificado"
+    return None
 
 def segmentar(arquivo, meta):
     linhas = linhas_limpas(open(arquivo, encoding="utf-8").read())
@@ -94,6 +95,8 @@ def segmentar(arquivo, meta):
     saida = []
     for i, a in enumerate(atos, 1):
         corpo = " ".join(a["linhas"])
+        corpo = re.sub(r"(?<=\w)[\u2010\u2011\u00ad]\s*(?=\w)", "", corpo)       # hifenização de fim de linha
+        corpo = re.sub(r"(?<=[a-zà-ú])-\s+(?=[a-zà-ú])", "", corpo)
         m = NUM.search(a["titulo"]) or NUM.search(corpo[:300])
         valores = [valor_para_float(v) for v in VALOR.findall(corpo)]
         saida.append({
@@ -101,7 +104,7 @@ def segmentar(arquivo, meta):
             "id_edicao": meta["id"], "url_pdf": meta["url_pdf"], "ordem": i,
             "classe": classe(a["titulo"]), "titulo": a["titulo"][:200],
             "instrumento": f"{m.group(1)}/{m.group(2)}" if m else None,
-            "orgao": a.get("cab") or orgao(corpo), "sei": sorted(set(SEI.findall(corpo))),
+            "orgao": (orgao(a.get("cab") or "") or orgao(corpo[:1200]) or "Não identificado"), "sei": sorted(set(SEI.findall(corpo))),
             "cnpj": sorted(set(CNPJ.findall(corpo))),
             "valor_max": max(valores) if valores else None,
             "valores": sorted(set(valores), reverse=True)[:5],

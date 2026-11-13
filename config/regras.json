@@ -1,0 +1,27 @@
+{
+ "_leia-me": "Ajuste valores e termos aqui. Termos são expressões regulares, sem acento e em minúsculas.",
+ "valor_alto": 2000000,
+ "valor_corte": 500000,
+ "aditivo_percentual_alto": 25,
+ "pessoal_dia_limiar_minimo": 20,
+ "pessoal_dia_fator_media": 1.8,
+ "fornecedor_repetido_min_atos": 3,
+ "fornecedor_repetido_janela_dias": 30,
+ "controle": "sindicancia|processo administrativo disciplinar|\\bpad\\b|comissao processante|tomada de contas|apuracao de responsabilidade|impedimento de licitar|inidoneidade|aplic\\w+ (de )?(penalidade|sancao|multa)|rescisao unilateral|decisao final no processo",
+ "contratacao_direta": "dispensa de licita|inexigibilidade|contratacao emergencial|emergencia|calamidade|credenciamento",
+ "aditivo": "termo aditivo|apostilamento|prorrogacao|reajuste|repactuacao|reequilibrio",
+ "cancelamento": "cancelamento|revogacao|anulacao|suspensao|fracassad|deserta",
+ "cargo_estrategico": "(nomear|nomeia|designa|exonera)[^.]{0,200}?(cargo de|funcao de)\\s+(secretari[oa]|subsecretari|controlador|procurador[- ]geral|chefe de gabinete|diretor[- ]presidente|presidente|superintendente)",
+ "temporario": "contratacao temporaria|processo seletivo simplificado|excepcional interesse publico|contrato temporario",
+ "pessoal_movimento": "\\b(nomeia|nomear|exonera|exonerar|designa|designar|remaneja)\\b",
+ "prioridades": {
+  "Reforma administrativa e servidor": "reforma administrativa|estrutura organizacional|plano de cargos|lei complementar n[o°]? ?577|valorizacao do servidor|banco de servidores|remanejament|progressao|capacitacao de servidores",
+  "Saúde": "cirurgias? eletiv|mutirao|fila de espera|hospital|\\bupa\\b|\\bubs\\b|unidade basica|maternidade|ambulatorio|oftalmolog|regulacao",
+  "Educação e creches": "creche|cmei|educacao infantil|vagas|escola|professor|merenda|transporte escolar|kits escolares",
+  "Habitação": "habitacional|moradia|regularizacao fundiaria|loteamento|interesse social",
+  "Governo digital": "software|sistema de informa|saas|aplicativo|plataforma digital|transformacao digital|serpro|whatsapp|conecta anapolis|tecnologia da informacao",
+  "Plano Diretor e uso do solo": "plano diretor|zoneamento|uso e ocupacao do solo|parcelamento do solo",
+  "Transparência e LGPD": "lgpd|protecao de dados|encarregado|lei de acesso|ouvidoria|\\bsic\\b|transparencia",
+  "Desenvolvimento econômico": "distrito agroindustrial|dainco|incentivo fiscal|empreendedor|desenvolvimento economico"
+ }
+}

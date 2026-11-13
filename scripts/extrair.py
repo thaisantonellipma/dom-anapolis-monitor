@@ -22,13 +22,13 @@ def n_imagens(pdf):
     saida = subprocess.run(["pdfimages", "-list", pdf], capture_output=True, text=True).stdout
     return max(0, len(saida.strip().splitlines()) - 2)
 
-def main(modo="colunas", destino_dir="textos"):
+def main(modo="auto", destino_dir="textos"):
     os.makedirs(destino_dir, exist_ok=True)
     os.makedirs("relatorios", exist_ok=True)
     diag = ["arquivo,paginas,caracteres,caracteres_por_pagina,imagens"]
     for pdf in sorted(glob.glob("pdfs/*.pdf")):
         destino = f"{destino_dir}/" + os.path.basename(pdf).replace(".pdf", ".txt")
-        if os.path.exists(destino) and modo == "colunas" and destino_dir == "textos":
+        if os.path.exists(destino) and destino_dir == "textos":
             continue  # execução incremental: edição já extraída
         partes = []
         for n, w, h in paginas(pdf):
@@ -43,7 +43,7 @@ def main(modo="colunas", destino_dir="textos"):
         chars = sum(len(p) for p in partes)
         diag.append(f"{os.path.basename(pdf)},{len(partes)},{chars},{chars // max(1, len(partes))},{n_imagens(pdf)}")
         print(destino, len(partes), "páginas")
-    if modo == "colunas":
+    if diag[1:]:
         open("relatorios/diagnostico_pdfs.csv", "w").write("\n".join(diag) + "\n")
 
 if __name__ == "__main__":
