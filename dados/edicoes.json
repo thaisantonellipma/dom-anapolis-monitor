@@ -110,16 +110,6 @@
   "bytes": 583791
  },
  {
-  "id": 22936,
-  "numero": "3.993",
-  "data": "2026-07-29",
-  "tipo": "Edição Suplementar",
-  "situacao": "Publicado",
-  "codigo_icp": "202607296155",
-  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24190/b1mNBZ4Xjjofek1GKTaum5UkqP3CB6JXEZivFKNo.pdf",
-  "bytes": 382060
- },
- {
   "id": 22870,
   "numero": "3.993",
   "data": "2026-07-29",
@@ -128,6 +118,16 @@
   "codigo_icp": "202607297592",
   "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24157/KaJTKF78D3ah5Ykcec9yCl0YbMAuw40yoGm7yShC.pdf",
   "bytes": 538962
+ },
+ {
+  "id": 22936,
+  "numero": "3.993",
+  "data": "2026-07-29",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202607296155",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/24190/b1mNBZ4Xjjofek1GKTaum5UkqP3CB6JXEZivFKNo.pdf",
+  "bytes": 382060
  },
  {
   "id": 22903,

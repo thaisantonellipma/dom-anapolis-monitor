@@ -1,8 +1,10 @@
 # Teste 2 - conferência do histórico (92 atos)
 
-- sem_identificador(conferir_manual): 54
-- achado: 36
-- NAO_ACHADO: 2
+- achado_provavel_por_palavras: 46
+- achado_sei+instrumento: 16
+- achado_instrumento: 12
+- sem_identificador_nao_achado(conferir_manual): 9
+- achado_sei: 9
 
 ## Processos SEI no texto vs. planilha, por edição
 
@@ -14,8 +16,8 @@
 | 3.988 | 15 | 14 |
 | 3.990 | 20 | 20 |
 | 3.992 | 32 | 32 |
-| 3.993 | 1 | 1 |
-| 3.994 | 47 | 47 |
+| 3.993 | 34 | 34 |
+| 3.994 | 48 | 48 |
 | 3.995 | 37 | 30 |
 | 3.996 | 52 | 52 |
 | 3.997 | 12 | 11 |
@@ -27,5 +29,12 @@
 
 ## Não achados
 
-- ed. 3.993 | Obras | Pregão 043/2026 | SEI: None | NAO_ACHADO
-- ed. 4.001 | SEMAD | Pregões 082, 086, 087, 088 e 091/2026 | SEI: None | NAO_ACHADO
+- ed. 3.988 | SEMED | None | SEI: None | sem_identificador_nao_achado(conferir_manual)
+- ed. 3.992 | Cultura | Inexigibilidades | SEI: None | sem_identificador_nao_achado(conferir_manual)
+- ed. 3.992 | Administração | Aquisição | SEI: None | sem_identificador_nao_achado(conferir_manual)
+- ed. 3.993 | SEMAD | Nomeações/exoneração | SEI: None | sem_identificador_nao_achado(conferir_manual)
+- ed. 3.993 | Obras | ARPs | SEI: None | sem_identificador_nao_achado(conferir_manual)
+- ed. 3.995 | SEMED | Portarias de licença | SEI: None | sem_identificador_nao_achado(conferir_manual)
+- ed. 3.996 | SEMED | Convênio | SEI: None | sem_identificador_nao_achado(conferir_manual)
+- ed. 3.999 | SEMED | Portarias de licença | SEI: None | sem_identificador_nao_achado(conferir_manual)
+- ed. 4.003 | SEMED | Editais de convocação | SEI: None | sem_identificador_nao_achado(conferir_manual)
