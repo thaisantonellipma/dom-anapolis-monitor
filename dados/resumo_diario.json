@@ -987,7 +987,7 @@
   "atos": 24,
   "pessoal": 4,
   "alta": 2,
-  "media": 10,
+  "media": 11,
   "valor_citado": 24048585.139999997,
   "alertas_dia": []
  },
@@ -1144,7 +1144,7 @@
   "atos": 35,
   "pessoal": 1,
   "alta": 1,
-  "media": 16,
+  "media": 17,
   "valor_citado": 5113935.95,
   "alertas_dia": []
  },
@@ -1181,8 +1181,20 @@
   "atos": 40,
   "pessoal": 6,
   "alta": 0,
-  "media": 20,
+  "media": 21,
   "valor_citado": 3009524.4,
+  "alertas_dia": []
+ },
+ "2026-11-13": {
+  "data": "2026-11-13",
+  "edicoes": [
+   "4.070 (Diário Oficial)"
+  ],
+  "atos": 114,
+  "pessoal": 3,
+  "alta": 2,
+  "media": 31,
+  "valor_citado": 16897479.65,
   "alertas_dia": []
  }
 }
