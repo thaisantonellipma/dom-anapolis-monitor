@@ -1196,5 +1196,17 @@
   "media": 31,
   "valor_citado": 16897479.65,
   "alertas_dia": []
+ },
+ "2026-11-16": {
+  "data": "2026-11-16",
+  "edicoes": [
+   "4.071 (Diário Oficial)"
+  ],
+  "atos": 49,
+  "pessoal": 1,
+  "alta": 5,
+  "media": 6,
+  "valor_citado": 66568082.31,
+  "alertas_dia": []
  }
 }
