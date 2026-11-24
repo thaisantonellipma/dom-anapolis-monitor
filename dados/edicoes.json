@@ -1118,5 +1118,15 @@
   "codigo_icp": "202611197480",
   "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/27193/aHzUPWhiISWf7rrNAINs7UWxyEnlfFfQXKU7krW4.pdf",
   "bytes": 842475
+ },
+ {
+  "id": 25906,
+  "numero": "4.075",
+  "data": "2026-11-23",
+  "tipo": "Diário Oficial",
+  "situacao": "Publicado",
+  "codigo_icp": "202611233136",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/27226/YHLHvecoz1FAQ3VyZfK81KGHIiRTEjZbSX8px0aK.pdf",
+  "bytes": 531479
  }
 ]

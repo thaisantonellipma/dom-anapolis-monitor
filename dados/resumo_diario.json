@@ -1250,5 +1250,23 @@
   "media": 8,
   "valor_citado": 132739.58,
   "alertas_dia": []
+ },
+ "2026-11-23": {
+  "data": "2026-11-23",
+  "edicoes": [
+   "4.075 (Diário Oficial)"
+  ],
+  "atos": 32,
+  "pessoal": 6,
+  "alta": 4,
+  "media": 8,
+  "valor_citado": 32754117.930000003,
+  "alertas_dia": [
+   {
+    "regra": "Controle em lote",
+    "sev": "ALTA",
+    "motivo": "3 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
+   }
+  ]
  }
 }
