@@ -1268,5 +1268,17 @@
     "motivo": "3 sindicâncias, processos disciplinares ou decisões de controle publicados no mesmo dia"
    }
   ]
+ },
+ "2026-11-24": {
+  "data": "2026-11-24",
+  "edicoes": [
+   "4.076 (Diário Oficial)"
+  ],
+  "atos": 14,
+  "pessoal": 3,
+  "alta": 0,
+  "media": 2,
+  "valor_citado": 100000.0,
+  "alertas_dia": []
  }
 }
