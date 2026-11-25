@@ -1272,13 +1272,14 @@
  "2026-11-24": {
   "data": "2026-11-24",
   "edicoes": [
-   "4.076 (Diário Oficial)"
+   "4.076 (Diário Oficial)",
+   "4.076 (Edição Suplementar)"
   ],
-  "atos": 14,
+  "atos": 16,
   "pessoal": 3,
   "alta": 0,
-  "media": 2,
-  "valor_citado": 100000.0,
+  "media": 3,
+  "valor_citado": 300000.0,
   "alertas_dia": []
  }
 }

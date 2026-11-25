@@ -1138,5 +1138,15 @@
   "codigo_icp": "202611244108",
   "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/27259/HNxqhw9hgeKgPRJrtQad29gjk2iXgJxPN4IdlIjE.pdf",
   "bytes": 526230
+ },
+ {
+  "id": 26005,
+  "numero": "4.076",
+  "data": "2026-11-24",
+  "tipo": "Edição Suplementar",
+  "situacao": "Publicado",
+  "codigo_icp": "202611247672",
+  "url_pdf": "https://diariooficial.s3.us-east-2.amazonaws.com/cliente/pf_anapolis/27292/lxX2NlMcaSwwlQaQmHQnnelTFnNiMZDtsZOsrSYl.pdf",
+  "bytes": 445823
  }
 ]
