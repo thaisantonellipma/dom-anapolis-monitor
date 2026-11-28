@@ -1309,13 +1309,14 @@
  "2026-11-27": {
   "data": "2026-11-27",
   "edicoes": [
-   "4.079 (Diário Oficial)"
+   "4.079 (Diário Oficial)",
+   "4.079 (Edição Suplementar)"
   ],
-  "atos": 29,
-  "pessoal": 10,
+  "atos": 34,
+  "pessoal": 11,
   "alta": 2,
-  "media": 5,
-  "valor_citado": 2274677.94,
+  "media": 6,
+  "valor_citado": 2330358.98,
   "alertas_dia": []
  }
 }
